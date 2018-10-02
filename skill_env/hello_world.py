@@ -1,3 +1,4 @@
+import json
 from ask_sdk_core.skill_builder import SkillBuilder
 
 sb = SkillBuilder()
@@ -16,10 +17,10 @@ class LaunchRequestHandler(AbstractRequestHandler):
 
      def handle(self, handler_input):
          # type: (HandlerInput) -> Response
-         speech_text = "Welcome to the Alexa Skills Kit, you can say hello!"
+         speech_text = "Welcome to P.S.U Helper, you can ask me different questions about Penn State!"
 
          handler_input.response_builder.speak(speech_text).set_card(
-            SimpleCard("Hello World", speech_text)).set_should_end_session(
+            SimpleCard("P.S.U Helper", speech_text)).set_should_end_session(
             False)
          return handler_input.response_builder.response    
 
@@ -30,10 +31,14 @@ class GetNewFactIntentHandler(AbstractRequestHandler):
 
     def handle(self, handler_input):
         # type: (HandlerInput) -> Response
-        speech_text = "Hello World"
+        description_date_dict = {"classes_start": "Monday, August 26th", "classes_end": "Friday, December 13th"}
 
+        description_slot = handler_input.request_envelope.request.intent.slots["description"].to_dict()
+        # accessing the id of the description is really weird, but every thing we use should have an id
+        slot_id = description_slot["resolutions"]["resolutions_per_authority"][0]["values"][0]["value"]["id"]
+        speech_text = description_date_dict[slot_id]
         handler_input.response_builder.speak(speech_text).set_card(
-            SimpleCard("Hello World", speech_text)).set_should_end_session(
+            SimpleCard("Academic Calender", speech_text)).set_should_end_session(
             True)
         return handler_input.response_builder.response
 
