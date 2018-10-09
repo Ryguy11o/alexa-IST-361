@@ -31,7 +31,24 @@ class GetNewFactIntentHandler(AbstractRequestHandler):
 
     def handle(self, handler_input):
         # type: (HandlerInput) -> Response
-        description_date_dict = {"classes_start": "Monday, August 26th", "classes_end": "Friday, December 13th"}
+        description_date_dict = {
+        "classes_start": "Monday, August 20th",
+        "classes_end": "Friday, December 7th",
+        "student_reg_deadline": "Sunday, August 19th",
+        "drop_deadline": "Saturday, August 25th",
+        "add_deadline": " Sunday, August 26 at 11:59 p.m. Eastern Time",
+        "finals_week_ends": "Friday, December 14",
+        "withdrawl_deadline_ends":"Friday, December 7th",
+        "finals_week_begins": "Monday, December 10th",
+        "withdrawal_deadline_ends": "Friday, December 7th",
+        "declare_minor_deadline": "Friday, November 9th",
+        "late_drop_deadline": "Friday, November 9th",
+        "final_exam_conflict": "Sunday, October 14th",
+        "late_drop_begins":"Sunday, August 26th",
+        "late_registration_begins": "Monday, August 27th",
+        "final_exams": "Monday through Friday of December 10th through 14th",
+        "thanksgiving_break": "Sunday through Saturday,	November 18th through 24th"
+        }
 
         description_slot = handler_input.request_envelope.request.intent.slots["description"].to_dict()
         # accessing the id of the description is really weird, but every thing we use should have an id
