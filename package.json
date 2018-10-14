@@ -16,7 +16,11 @@
     "url": "https://github.com/Ryguy11o/alexa-IST-361/issues"
   },
   "homepage": "https://github.com/Ryguy11o/alexa-IST-361#readme",
- "dependencies": {
-    "ask-sdk": "^2.1.0"
+  "dependencies": {
+    "ask-sdk": "^2.1.0",
+    "lambda-local": "^1.5.1"
+  },
+  "scripts": {
+    "test": "lambda-local -l lambda-new.js -h handler -e event.json"
   }
 }
