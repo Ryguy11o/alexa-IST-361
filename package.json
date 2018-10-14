@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Ryguy11o/alexa-IST-361/issues"
   },
-  "homepage": "https://github.com/Ryguy11o/alexa-IST-361#readme"
+  "homepage": "https://github.com/Ryguy11o/alexa-IST-361#readme",
+ "dependencies": {
+    "ask-sdk": "^2.1.0"
+  }
 }
