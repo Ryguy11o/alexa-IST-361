@@ -4,7 +4,7 @@
   "description": "Happy Valley helper - aws function",
   "main": "lambda.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "lambda-local -l lambda-new.js -h handler -e cata.json"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,9 @@
     "url": "https://github.com/Ryguy11o/alexa-IST-361/issues"
   },
   "homepage": "https://github.com/Ryguy11o/alexa-IST-361#readme",
- "dependencies": {
-    "ask-sdk": "^2.1.0"
+  "dependencies": {
+    "ask-sdk": "^2.1.0",
+    "axios": "^0.18.0",
+    "lambda-local": "^1.5.1"
   }
 }
