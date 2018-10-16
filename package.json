@@ -4,7 +4,8 @@
   "description": "Happy Valley helper - aws function",
   "main": "lambda.js",
   "scripts": {
-    "test": "lambda-local -l lambda-new.js -h handler -e cata.json"
+    "academic_test": "lambda-local -l lambda-new.js -h handler -e ./utilities/events/event.json",
+    "cata_test": "lambda-local -l lambda-new.js -h handler -e ./utilities/events/cata.json"
   },
   "repository": {
     "type": "git",
