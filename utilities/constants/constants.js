@@ -55,6 +55,11 @@ const BUS_ID_TO_NAME = {
     'hm_route': {'name': 'H.M. - Toftrees/Nittany Mall', 'routeId':60}
 };
 
+const STOP_ID_TO_NAME = {
+    'stopId':1 {'name': 'College Avenue at Allen Street', 'college_avenue_at_allen_street'},
+    'stopId':2 {'name': 'Burrowes Road at Deike Building', 'burrowes_road_at_deike_building'},
+}
+
 module.exports = {
     DESCRIPTION_DATE,
     BUS_ID_TO_NAME,
