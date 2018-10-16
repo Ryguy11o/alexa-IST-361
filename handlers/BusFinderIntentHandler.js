@@ -1,8 +1,5 @@
 const axios = require('axios');
-const {
-  BUS_ID_TO_NAME,
-  SKILL_NAME
-} = require('../utilities/constants/constants');
+const { BUS_ID_TO_NAME, SKILL_NAME } = require('../utilities/constants/constants');
 
 const BusFinderIntentHandler = {
   canHandle(handlerInput) {
