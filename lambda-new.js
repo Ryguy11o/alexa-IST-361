@@ -3,30 +3,20 @@ const { GetNewFactIntentHandler } = require('./handlers/GetNewFactIntentHandler'
 const { BusFinderIntentHandler } = require('./handlers/BusFinderIntentHandler');
 
 const {
-    LaunchRequestHandler,
-    HelpIntentHandler,
-    CancelAndStopIntentHandler,
-    SessionEndedRequestHandler,
-    ErrorHandler 
-  } = require('./handlers/BaseHandlers');
-
-const {
-    DESCRIPTION_DATE,
-    BUS_ID_TO_NAME,
-    APP_ID, WELCOME_MESSAGE,
-    SKILL_NAME,
-    HELP_MESSAGE,
-    HELP_REPROMPT,
-    STOP_MESSAGE
-  } = require('./utilities/constants/constants.js');
+  LaunchRequestHandler,
+  HelpIntentHandler,
+  CancelAndStopIntentHandler,
+  SessionEndedRequestHandler,
+  ErrorHandler
+} = require('./handlers/BaseHandlers');
 
 exports.handler = Alexa.SkillBuilders.custom()
-    .addRequestHandlers(
-        LaunchRequestHandler,
-        GetNewFactIntentHandler,
-        BusFinderIntentHandler,
-        HelpIntentHandler,
-        CancelAndStopIntentHandler,
-        SessionEndedRequestHandler)
-    .addErrorHandlers(ErrorHandler)
-    .lambda();
+  .addRequestHandlers(
+    LaunchRequestHandler,
+    GetNewFactIntentHandler,
+    BusFinderIntentHandler,
+    HelpIntentHandler,
+    CancelAndStopIntentHandler,
+    SessionEndedRequestHandler)
+  .addErrorHandlers(ErrorHandler)
+  .lambda();
