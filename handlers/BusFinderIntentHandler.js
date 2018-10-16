@@ -18,7 +18,7 @@ const BusFinderIntentHandler = {
 
     let speechText;
     if (numBuses !== 0) {
-      speechText = `There are ${numBuses} buses running for the ${busInfo.name} route. The last stop for each bus is as follow: ${runningBuses.toString()}`;
+      speechText = `There are ${numBuses} buses running for the ${busInfo.name} route. The last stop for each bus is as follows: ${runningBuses.toString()}`;
     } else {
       speechText = `There are currently no busses running for the ${busInfo.name} route.`;
     }
