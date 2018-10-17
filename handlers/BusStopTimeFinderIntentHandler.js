@@ -14,6 +14,8 @@ const BusStopTimeFinderIntentHandler = {
     async handle(handlerInput) {
       const stopId = handlerInput.requestEnvelope.request.intent.slots.STOP_ID.resolutions.resolutionsPerAuthority[0].values[0].value.id
       const busInfo = STOP_ID_TO_NAME[slotId];
-      const stopData = await axios.get('https://realtime.catabus.com/InfoPoint/rest/StopDepartures/Get/${busInfo.stopId}')
+      const stopData = await axios.get(`https://realtime.catabus.com/InfoPoint/rest/StopDepartures/Get/${busInfo.stopId}`).then(response => response.data);
+      const numberOfDepartures = stopData.RouteDirections.Departures.length;
+      Console.log(numberOfDepartures);
     }
 }
