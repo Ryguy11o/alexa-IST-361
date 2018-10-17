@@ -56,12 +56,15 @@ const BUS_ID_TO_NAME = {
 };
 
 const STOP_ID_TO_NAME = {
-    'stopId':1 {'name': 'College Avenue at Allen Street', 'college_avenue_at_allen_street'},
-    'stopId':2 {'name': 'Burrowes Road at Deike Building', 'burrowes_road_at_deike_building'},
+    'college_avenue_at_allen_street':{'name': 'College Avenue at Allen Street', 'stopId':1},
+    'burrowes_road_at_deike_building':{'name': 'Burrowes Road at Deike Building', 'stopId':2},
+    'burrowes_road_at_waring_commons':{'name': 'Burrowes Road at Waring Commons', 'stopId':3},
+    'pattee_transit_center_eastbound':{'name': 'Pattee Transit Center Eastbound', 'stopId':4}
 }
 
 module.exports = {
     DESCRIPTION_DATE,
+    STOP_ID_TO_NAME,
     BUS_ID_TO_NAME,
     APP_ID: 'amzn1.ask.skill.7f38e6e1-9c0c-464a-b950-c07c5e174084',
     WELCOME_MESSAGE: 'Welcome to P.S.U Helper, you can ask me different questions about Penn State!',
