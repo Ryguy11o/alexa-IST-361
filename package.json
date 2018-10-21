@@ -5,7 +5,8 @@
   "main": "lambda.js",
   "scripts": {
     "academic_test": "lambda-local -l lambda-new.js -h handler -e ./utilities/events/event.json",
-    "cata_test": "lambda-local -l lambda-new.js -h handler -e ./utilities/events/cata.json"
+    "cata_test": "lambda-local -l lambda-new.js -h handler -e ./utilities/events/cata.json",
+    "cata-depart-test": "lambda-local -l lambda-new.js -h handler -e ./utilities/events/cata-depart-test.json"
   },
   "repository": {
     "type": "git",

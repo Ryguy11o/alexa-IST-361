@@ -21,6 +21,7 @@ const BusStopTimeFinderIntentHandler = {
       const nextDeparture = await axios.get(`https://realtime.catabus.com/InfoPoint/rest/StopDepartures/Get/${stopId}`).then(response => response.data);
       const numberOfDepartures = nextDeparture[0].RouteDirections[0].Departures.length;
       //what alexa will say when a successful request is made
+      console.log(numberOfDepartures);
       let speechText;
       if (numberOfDepartures !== 0){
           speechText = `There are ${numberOfDepartures} for the ${busInfo.name} at ${stopInfo.name}.`;
