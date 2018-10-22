@@ -56,11 +56,11 @@ const BUS_ID_TO_NAME = {
 };
 
 const STOP_ID_TO_NAME = {
-    'college_avenue_at_allen_street':{'name': 'College Avenue at Allen Street', 'stopId':1},
-    'burrowes_road_at_deike_building':{'name': 'Burrowes Road at Deike Building', 'stopId':2},
-    'burrowes_road_at_waring_commons':{'name': 'Burrowes Road at Waring Commons', 'stopId':3},
-    'pattee_transit_center_eastbound':{'name': 'Pattee Transit Center Eastbound', 'stopId':4}
-}
+    'college_avenue_at_allen_street': {'name': 'College Avenue at Allen Street', 'stopId':1},
+    'burrowes_road_at_deike_building': {'name': 'Burrowes Road at Deike Building', 'stopId':2},
+    'burrowes_road_at_waring_commons': {'name': 'Burrowes Road at Waring Commons', 'stopId':3},
+    'pattee_transit_center_eastbound': {'name': 'Pattee Transit Center Eastbound', 'stopId':4}
+};
 
 module.exports = {
     DESCRIPTION_DATE,

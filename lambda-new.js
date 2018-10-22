@@ -1,13 +1,14 @@
 const Alexa = require('ask-sdk-core');
 const { GetNewFactIntentHandler } = require('./handlers/GetNewFactIntentHandler');
 const { BusFinderIntentHandler } = require('./handlers/BusFinderIntentHandler');
+const { BusStopTimeFinderIntentHandler} = require('./handlers/BusStopTimeFinderIntentHandler');
 
 const {
     LaunchRequestHandler,
     HelpIntentHandler,
     CancelAndStopIntentHandler,
     SessionEndedRequestHandler,
-    ErrorHandler 
+    ErrorHandler
   } = require('./handlers/BaseHandlers');
 
 const {

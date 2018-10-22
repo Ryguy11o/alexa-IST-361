@@ -24,7 +24,7 @@ const BusStopTimeFinderIntentHandler = {
       console.log(numberOfDepartures);
       let speechText;
       if (numberOfDepartures !== 0){
-          speechText = `There are ${numberOfDepartures} for the ${busInfo.name} at ${stopInfo.name}.`;
+          speechText = `There are currently ${numberOfDepartures} for the ${stopInfo.name}.`;
       } else {
           speechText = `There are currently no departures listed for the bus stop at ${stopInfo.name}.`;
       }
