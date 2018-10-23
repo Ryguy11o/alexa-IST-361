@@ -1,21 +1,15 @@
 const axios = require('axios');
 
-console.log('hey');
-
 const {
   STOP_ID_TO_NAME,
   BUS_ID_TO_NAME,
 } = require('../utilities/constants/constants');
-
-console.log('hi');
 
 const BusStopTimeFinderIntentHandler = {
     canHandle(handlerInput) {
       return handlerInput.requestEnvelope.request.type === 'IntentRequest'
         && handlerInput.requestEnvelope.request.intent.name === 'BusStopTimeFinderIntent';
     },
-
-console.log('yo');
 
     async handle(handlerInput) {
 
