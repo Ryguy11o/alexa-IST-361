@@ -63,5 +63,6 @@ module.exports = {
   SKILL_NAME: 'Happy Valley Helper',
   HELP_MESSAGE: 'You can ask me questions about Happy Valley, or you can say exit... What can I help you with?',
   HELP_REPROMPT: 'What can I help you with?',
-  STOP_MESSAGE: 'Goodbye!'
+  STOP_MESSAGE: 'Goodbye!',
+  SEMESTER_YEAR: 'It is the Fall 2018 semester.'
 };
