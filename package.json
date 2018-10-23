@@ -21,6 +21,7 @@
   "dependencies": {
     "ask-sdk": "^2.1.0",
     "axios": "^0.18.0",
-    "lambda-local": "^1.5.1"
+    "lambda-local": "^1.5.1",
+    "npm": "^6.4.1"
   }
 }
