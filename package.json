@@ -7,8 +7,9 @@
     "pretest": "eslint --ignore-path .gitignore .",
     "fix": "./node_modules/.bin/eslint --fix --ignore-path .gitignore .",
     "test": "npm run academic_test && npm run cata_test",
-    "academic_test": "lambda-local -l lambda-new.js -h handler -e ./utilities/events/event.json",
-    "cata_test": "lambda-local -l lambda-new.js -h handler -e ./utilities/events/cata.json"
+    "academic_test": "lambda-local -l main.js -h handler -e ./utilities/events/event.json",
+    "cata_test": "lambda-local -l main.js -h handler -e ./utilities/events/cata.json",
+    "semester_test": "lambda-local -l main.js -h handler -e ./utilities/events/semester.json"
   },
   "repository": {
     "type": "git",
