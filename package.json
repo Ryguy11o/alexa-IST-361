@@ -4,9 +4,12 @@
   "description": "Happy Valley helper - aws function",
   "main": "lambda.js",
   "scripts": {
-    "academic_test": "lambda-local -l lambda-new.js -h handler -e ./utilities/events/event.json",
-    "cata_test": "lambda-local -l lambda-new.js -h handler -e ./utilities/events/cata.json",
-    "cata-depart-test": "lambda-local -l lambda-new.js -h handler -e ./utilities/events/cata-depart-test.json"
+    "pretest": "eslint --ignore-path .gitignore .",
+    "fix": "./node_modules/.bin/eslint --fix --ignore-path .gitignore .",
+    "test": "npm run academic_test && npm run cata_test",
+    "academic_test": "lambda-local -l main.js -h handler -e ./utilities/events/event.json",
+    "cata_test": "lambda-local -l main.js -h handler -e ./utilities/events/cata.json",
+    "cata-depart-test": "lambda-local -l main.js -h handler -e ./utilities/events/cata-depart-test.json"
   },
   "repository": {
     "type": "git",
@@ -21,7 +24,12 @@
   "dependencies": {
     "ask-sdk": "^2.1.0",
     "axios": "^0.18.0",
-    "lambda-local": "^1.5.1",
-    "npm": "^6.4.1"
+    "lambda-local": "^1.5.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.7.0",
+    "eslint-config-airbnb-es5": "^1.2.0",
+    "eslint-plugin-react": "^7.11.1"
   }
 }
