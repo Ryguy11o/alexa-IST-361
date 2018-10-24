@@ -1,8 +1,8 @@
 {
 	"version": "1.0",
 	"session": {
-		"new": false,
-		"sessionId": "amzn1.echo-api.session.364c898b-5401-42e7-8c60-0af6c62758c7",
+		"new": true,
+		"sessionId": "amzn1.echo-api.session.87af0236-045f-4e59-bff2-c9be0cdcd06d",
 		"application": {
 			"applicationId": "amzn1.ask.skill.7f38e6e1-9c0c-464a-b950-c07c5e174084"
 		},
@@ -23,21 +23,45 @@
 				"supportedInterfaces": {}
 			},
 			"apiEndpoint": "https://api.amazonalexa.com",
-			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjdmMzhlNmUxLTljMGMtNDY0YS1iOTUwLWMwN2M1ZTE3NDA4NCIsImV4cCI6MTU0MDE3MDkxNiwiaWF0IjoxNTQwMTY3MzE2LCJuYmYiOjE1NDAxNjczMTYsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUZBV0lSUEdMTUxQU0NaV1VFM0JVSjdDS0FYTDUyU0k0VEZCMlBPNU9KRlFFWVNDTkZQR0hFSU9MUllQWVNYSUFCWFFCQUlIMk5PNTZHQTZaNkQyUVI0Sk9DREdQWVNHNTQ0VDdRQ0tYRVFBVzNWNEhUWFVaS0ZRV0NaUTZKTFFUQTZKTk9SNDZGM0haV1BCTFJITEdFQjU2RVNQV0tYQ1pUVVI1R0ZaVVNNTUpFQjJDM0w0USIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFFRzZSS0dYQTJFTVFDQlI0N1BJTFVTTVNJNzdZT1pGSFhSSzUzQUdBM0pZVkdDQ1dHSlBNVDJHRTJaWU83U0lPUk5RWjZCRTZRR0ZCU1RDUjJMTDJYRFVOTkZVQkdNSlUySVJRRklJM08yRVRSWEM1TFJaQ1Q3SEVWUVdEMzdXUTRNU0JFR0EzT1RPNUpRV1NaQzNFSUM3S1BMWUo0WU1DTlVJS01JR09QTjdGUEFRSDRYNVJTNVM3NjRHUFhKWTJNUFUzQlFVRjZDVTVSUSJ9fQ.bmMFifHhEbBlS8HFRS75t5tGUuchYD5HsuE0PQ9XW8G60iTRsslQro4pZUP59WKxds-clonsAv6DoMahco52czbF9Aqy2Qm3DyKL_Bd8PLtcDjz-uKS_Dwn3U9z7jen58Z4OG2jpbsFmVGv91444rZz-22BF2zSZNOZJPALcgxjPBibEbXSFngN7Q1mtocm4jlcjvQaPY7tLGPAkucb5C-RwGuvaH1yb0_6HKSNv1bL3_IGHFxq91zXg_sn085ADqqx4XVWubhyuftNTcnLrEdV05pKzOg4KGZbX3auN6lV0_cYHAtI2lfQ2r4jFTBUliBE5Gk5FrHh8Oy5C6xVk1w"
+			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjdmMzhlNmUxLTljMGMtNDY0YS1iOTUwLWMwN2M1ZTE3NDA4NCIsImV4cCI6MTU0MDM0Mjg5NSwiaWF0IjoxNTQwMzM5Mjk1LCJuYmYiOjE1NDAzMzkyOTUsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUZBV0lSUEdMTUxQU0NaV1VFM0JVSjdDS0FYTDUyU0k0VEZCMlBPNU9KRlFFWVNDTkZQR0hFSU9MUllQWVNYSUFCWFFCQUlIMk5PNTZHQTZaNkQyUVI0Sk9DREdQWVNHNTQ0VDdRQ0tYRVFBVzNWNEhUWFVaS0ZRV0NaUTZKTFFUQTZKTk9SNDZGM0haV1BCTFJITEdFQjU2RVNQV0tYQ1pUVVI1R0ZaVVNNTUpFQjJDM0w0USIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFFRzZSS0dYQTJFTVFDQlI0N1BJTFVTTVNJNzdZT1pGSFhSSzUzQUdBM0pZVkdDQ1dHSlBNVDJHRTJaWU83U0lPUk5RWjZCRTZRR0ZCU1RDUjJMTDJYRFVOTkZVQkdNSlUySVJRRklJM08yRVRSWEM1TFJaQ1Q3SEVWUVdEMzdXUTRNU0JFR0EzT1RPNUpRV1NaQzNFSUM3S1BMWUo0WU1DTlVJS01JR09QTjdGUEFRSDRYNVJTNVM3NjRHUFhKWTJNUFUzQlFVRjZDVTVSUSJ9fQ.jS-jpKDHwtiJJem0J83-RSyQsmuJfUxSbsK01S2xQZcH9oCwiUVHNFiRxmPwnB-A8kNqXbWgQKnh-0z4eK2AfPkyv8rhpu-qPRAIAljWLxvb-rHUP9yAfG520VepBPV7tcpe76-8O0rThhAC403M03NDuBpeDkPUvm0j3RB3cccUykNVQHSDs0E52eOLW3Yh_CtfU3eryQw9Ds6OZYRo989YO2HgYLSM5vL6-lcLNnyIPcvqKScEj_bLkBIUoaafty5PzpqWKV7LpFMO6SThsroNenPN1a8TNgDCVyQPiiyAhWhNDQyfDq5WWro7LgMz_BnrFKOI2MjxqfItE6g9YA"
 		}
 	},
 	"request": {
 		"type": "IntentRequest",
-		"requestId": "amzn1.echo-api.request.e354e0f9-a4be-4452-9a68-dd18544da165",
-		"timestamp": "2018-10-22T00:15:16Z",
+		"requestId": "amzn1.echo-api.request.6a83c8d5-13f8-4598-adb2-4de6158fecb0",
+		"timestamp": "2018-10-24T00:01:35Z",
 		"locale": "en-US",
 		"intent": {
 			"name": "BusStopTimeFinderIntent",
 			"confirmationStatus": "NONE",
 			"slots": {
+				"BUS_ROUTE": {
+					"name": "BUS_ROUTE",
+					"value": "martin Aaron express",
+					"resolutions": {
+						"resolutionsPerAuthority": [
+							{
+								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.7f38e6e1-9c0c-464a-b950-c07c5e174084.BUS_ROUTE",
+								"status": {
+									"code": "ER_SUCCESS_MATCH"
+								},
+								"values": [
+									{
+										"value": {
+											"name": "Martin Aaron Express",
+											"id": "ne_route"
+										}
+									}
+								]
+							}
+						]
+					},
+					"confirmationStatus": "NONE",
+					"source": "USER"
+				},
 				"STOP_ID": {
 					"name": "STOP_ID",
-					"value": "college avenue at Allen street",
+					"value": "pattee transit center",
 					"resolutions": {
 						"resolutionsPerAuthority": [
 							{
@@ -48,8 +72,8 @@
 								"values": [
 									{
 										"value": {
-											"name": "College Avenue at Allen Street",
-											"id": "college_avenue_at_allen_street"
+											"name": "Pattee Transit Center Eastbound",
+											"id": "pattee_transit_center_eastbound"
 										}
 									}
 								]
