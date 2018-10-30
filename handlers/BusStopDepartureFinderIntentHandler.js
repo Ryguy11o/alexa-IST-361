@@ -16,14 +16,14 @@ const BusStopDepartureFinderIntentHandler = {
     // sets bus stop values from AWS Alexa to stopId
     const stopId = handlerInput.requestEnvelope.request.intent.slots.STOP_ID.resolutions.resolutionsPerAuthority[0].values[0].value.id;
     // sets bus route slot values from AWS Alexa to slotId
-    const slotId = handlerInput.requestEnvelope.request.intent.slots.BUS_ROUTE.resolutions.resolutionsPerAuthority[0].values[0].value.id
+    const slotId = handlerInput.requestEnvelope.request.intent.slots.BUS_ROUTE.resolutions.resolutionsPerAuthority[0].values[0].value.id;
     // sets stop information to the desired stop requested
     const stopInfo = STOP_ID_TO_NAME[stopId];
     // sets bus information to the desired bus route requested
     const busInfo = BUS_ID_TO_NAME[slotId];
-    //calls CATA API & passes the stop Id that was requested in the original request
+    // calls CATA API & passes the stop Id that was requested in the original request
     const nextDeparture = await axios.get(`https://realtime.catabus.com/InfoPoint/rest/StopDepartures/Get/${stopInfo.stopId}`).then(response => response.data);
-    //finds the desired bus route Id after finishing 'nextDeparture'
+    // finds the desired bus route Id after finishing 'nextDeparture'
     const foundRouteDirections = nextDeparture[0].RouteDirections.find(routeDirections => {
       return routeDirections.RouteId === busInfo.routeId;
     });
