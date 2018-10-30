@@ -2,6 +2,7 @@ const Alexa = require('ask-sdk-core');
 const { GetNewFactIntentHandler } = require('./handlers/GetNewFactIntentHandler');
 const { BusFinderIntentHandler } = require('./handlers/BusFinderIntentHandler');
 const { BusStopTimeFinderIntentHandler} = require('./handlers/BusStopTimeFinderIntentHandler');
+const { BusRiderNumberFinderIntentHandler} = require('.handlers/BusRiderNumberFinderIntentHandler');
 
 const {
   LaunchRequestHandler,
@@ -27,6 +28,7 @@ exports.handler = Alexa.SkillBuilders.custom()
     GetNewFactIntentHandler,
     BusFinderIntentHandler,
     BusStopTimeFinderIntentHandler,
+    BusRiderNumberFinderIntentHandler,
     HelpIntentHandler,
     CancelAndStopIntentHandler,
     SessionEndedRequestHandler)

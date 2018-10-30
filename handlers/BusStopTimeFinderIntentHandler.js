@@ -19,20 +19,18 @@ const BusStopTimeFinderIntentHandler = {
     const stopInfo = STOP_ID_TO_NAME[stopId];
     const busInfo = BUS_ID_TO_NAME[slotId];
     const nextDeparture = await axios.get(`https://realtime.catabus.com/InfoPoint/rest/StopDepartures/Get/${stopInfo.stopId}`).then(response => response.data);
-    console.log('success');
-
-    const foundObject = nextDeparture[0].RouteDirections.find(object => {
-      return object.RouteId === busInfo.routeId;
+    const foundBusInfoJson = nextDeparture[0].RouteDirections.find(busInfoJson => {
+      return busInfoJson.RouteId === busInfo.routeId;
     });
 
-    const numberOfDepartures = foundObject.Departures.length;
+    const numberOfDepartures = foundBusInfoJson.Departures.length;
 
-    console.log(foundObject);
+    console.log(foundBusInfoJson);
 
     console.log(numberOfDepartures);
     let speechText;
     if (numberOfDepartures !== 0) {
-      speechText = `There are currently ${numberOfDepartures} left for the ${busInfo.name} at ${stopInfo.name}.`;
+      speechText = `There are currently ${numberOfDepartures} listed for the ${busInfo.name} at ${stopInfo.name}.`;
     } else {
       speechText = `There are currently no departures listed for the ${busInfo.name} at ${stopInfo.name}.`;
     }
