@@ -1,8 +1,8 @@
 {
 	"version": "1.0",
 	"session": {
-		"new": true,
-		"sessionId": "amzn1.echo-api.session.87af0236-045f-4e59-bff2-c9be0cdcd06d",
+		"new": false,
+		"sessionId": "amzn1.echo-api.session.7b2e46fc-1e18-4c86-b605-1d6ba442795d",
 		"application": {
 			"applicationId": "amzn1.ask.skill.7f38e6e1-9c0c-464a-b950-c07c5e174084"
 		},
@@ -23,21 +23,40 @@
 				"supportedInterfaces": {}
 			},
 			"apiEndpoint": "https://api.amazonalexa.com",
-			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjdmMzhlNmUxLTljMGMtNDY0YS1iOTUwLWMwN2M1ZTE3NDA4NCIsImV4cCI6MTU0MDM0Mjg5NSwiaWF0IjoxNTQwMzM5Mjk1LCJuYmYiOjE1NDAzMzkyOTUsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUZBV0lSUEdMTUxQU0NaV1VFM0JVSjdDS0FYTDUyU0k0VEZCMlBPNU9KRlFFWVNDTkZQR0hFSU9MUllQWVNYSUFCWFFCQUlIMk5PNTZHQTZaNkQyUVI0Sk9DREdQWVNHNTQ0VDdRQ0tYRVFBVzNWNEhUWFVaS0ZRV0NaUTZKTFFUQTZKTk9SNDZGM0haV1BCTFJITEdFQjU2RVNQV0tYQ1pUVVI1R0ZaVVNNTUpFQjJDM0w0USIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFFRzZSS0dYQTJFTVFDQlI0N1BJTFVTTVNJNzdZT1pGSFhSSzUzQUdBM0pZVkdDQ1dHSlBNVDJHRTJaWU83U0lPUk5RWjZCRTZRR0ZCU1RDUjJMTDJYRFVOTkZVQkdNSlUySVJRRklJM08yRVRSWEM1TFJaQ1Q3SEVWUVdEMzdXUTRNU0JFR0EzT1RPNUpRV1NaQzNFSUM3S1BMWUo0WU1DTlVJS01JR09QTjdGUEFRSDRYNVJTNVM3NjRHUFhKWTJNUFUzQlFVRjZDVTVSUSJ9fQ.jS-jpKDHwtiJJem0J83-RSyQsmuJfUxSbsK01S2xQZcH9oCwiUVHNFiRxmPwnB-A8kNqXbWgQKnh-0z4eK2AfPkyv8rhpu-qPRAIAljWLxvb-rHUP9yAfG520VepBPV7tcpe76-8O0rThhAC403M03NDuBpeDkPUvm0j3RB3cccUykNVQHSDs0E52eOLW3Yh_CtfU3eryQw9Ds6OZYRo989YO2HgYLSM5vL6-lcLNnyIPcvqKScEj_bLkBIUoaafty5PzpqWKV7LpFMO6SThsroNenPN1a8TNgDCVyQPiiyAhWhNDQyfDq5WWro7LgMz_BnrFKOI2MjxqfItE6g9YA"
+			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjdmMzhlNmUxLTljMGMtNDY0YS1iOTUwLWMwN2M1ZTE3NDA4NCIsImV4cCI6MTU0MDkxODE3NSwiaWF0IjoxNTQwOTE0NTc1LCJuYmYiOjE1NDA5MTQ1NzUsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUZBV0lSUEdMTUxQU0NaV1VFM0JVSjdDS0FYTDUyU0k0VEZCMlBPNU9KRlFFWVNDTkZQR0hFSU9MUllQWVNYSUFCWFFCQUlIMk5PNTZHQTZaNkQyUVI0Sk9DREdQWVNHNTQ0VDdRQ0tYRVFBVzNWNEhUWFVaS0ZRV0NaUTZKTFFUQTZKTk9SNDZGM0haV1BCTFJITEdFQjU2RVNQV0tYQ1pUVVI1R0ZaVVNNTUpFQjJDM0w0USIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFFRzZSS0dYQTJFTVFDQlI0N1BJTFVTTVNJNzdZT1pGSFhSSzUzQUdBM0pZVkdDQ1dHSlBNVDJHRTJaWU83U0lPUk5RWjZCRTZRR0ZCU1RDUjJMTDJYRFVOTkZVQkdNSlUySVJRRklJM08yRVRSWEM1TFJaQ1Q3SEVWUVdEMzdXUTRNU0JFR0EzT1RPNUpRV1NaQzNFSUM3S1BMWUo0WU1DTlVJS01JR09QTjdGUEFRSDRYNVJTNVM3NjRHUFhKWTJNUFUzQlFVRjZDVTVSUSJ9fQ.BVXbKjvGyP-7Rpv4N12r_t0nDXy70cCTO2LrG_h00tsUT4O7L7ZcZLx4w8CrY8dJhymPOztcOo25gBo_a5JL6SmgKnFMlqnDy8VG2uoev3hZwqrH6Pgj3Htr0AjhRYcU1YejElv2kpUTaMcF1SL_UtNjYPigLAKd0Gxq5G5C9Lx36r5-zTYPIZSpuSSjr8NWlesmuQyoOX6jGy__ZtniO49_8zqPmRUd9iWCkRQsnjvZlJ6fHkum9_2vuoy4lpXhu7swQQ61vOXZ40HX8RyPw3nC-rV26v-Ol7mKlE83bjotykYFNjVqEHlmKNR4xrIGipaCZPKbz8PU1-ogH_blqw"
+		},
+		"Viewport": {
+			"experiences": [
+				{
+					"arcMinuteWidth": 246,
+					"arcMinuteHeight": 144,
+					"canRotate": false,
+					"canResize": false
+				}
+			],
+			"shape": "RECTANGLE",
+			"pixelWidth": 1024,
+			"pixelHeight": 600,
+			"dpi": 160,
+			"currentPixelWidth": 1024,
+			"currentPixelHeight": 600,
+			"touch": [
+				"SINGLE"
+			]
 		}
 	},
 	"request": {
 		"type": "IntentRequest",
-		"requestId": "amzn1.echo-api.request.6a83c8d5-13f8-4598-adb2-4de6158fecb0",
-		"timestamp": "2018-10-24T00:01:35Z",
+		"requestId": "amzn1.echo-api.request.86cba7d6-b63b-471f-b4b5-0fee29b2a355",
+		"timestamp": "2018-10-30T15:49:35Z",
 		"locale": "en-US",
 		"intent": {
-			"name": "BusStopTimeFinderIntent",
+			"name": "BusRiderNumberFinderIntent",
 			"confirmationStatus": "NONE",
 			"slots": {
 				"BUS_ROUTE": {
 					"name": "BUS_ROUTE",
-					"value": "martin Aaron express",
+					"value": "blue loop",
 					"resolutions": {
 						"resolutionsPerAuthority": [
 							{
@@ -48,32 +67,8 @@
 								"values": [
 									{
 										"value": {
-											"name": "Martin Aaron Express",
-											"id": "ne_route"
-										}
-									}
-								]
-							}
-						]
-					},
-					"confirmationStatus": "NONE",
-					"source": "USER"
-				},
-				"STOP_ID": {
-					"name": "STOP_ID",
-					"value": "pattee transit center",
-					"resolutions": {
-						"resolutionsPerAuthority": [
-							{
-								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.7f38e6e1-9c0c-464a-b950-c07c5e174084.STOP_ID",
-								"status": {
-									"code": "ER_SUCCESS_MATCH"
-								},
-								"values": [
-									{
-										"value": {
-											"name": "Pattee Transit Center Eastbound",
-											"id": "pattee_transit_center_eastbound"
+											"name": "Blue Loop",
+											"id": "blue_loop"
 										}
 									}
 								]
