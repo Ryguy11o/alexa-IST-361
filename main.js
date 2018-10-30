@@ -3,6 +3,7 @@ const { GetNewFactIntentHandler } = require('./handlers/GetNewFactIntentHandler'
 const { BusFinderIntentHandler } = require('./handlers/BusFinderIntentHandler');
 const { BusStopDepartureFinderIntentHandler} = require('./handlers/BusStopDepartureFinderIntentHandler');
 const { SemesterIntentHandler } = require('./handlers/SemesterIntentHandler');
+const { BusInfoIntentHandler } = require('./handlers/BusInfoIntentHandler');
 
 
 const {
@@ -30,6 +31,7 @@ exports.handler = Alexa.SkillBuilders.custom()
     BusFinderIntentHandler,
     BusStopDepartureFinderIntentHandler,
     SemesterIntentHandler,
+    BusInfoIntentHandler,
     HelpIntentHandler,
     CancelAndStopIntentHandler,
     SessionEndedRequestHandler)
