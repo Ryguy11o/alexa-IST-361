@@ -13,24 +13,25 @@ const BusStopDepartureFinderIntentHandler = {
   },
 
   async handle(handlerInput) {
-    // sets slot values from AWS Alexa to stopId
+    // sets bus stop values from AWS Alexa to stopId
     const stopId = handlerInput.requestEnvelope.request.intent.slots.STOP_ID.resolutions.resolutionsPerAuthority[0].values[0].value.id;
+    // sets bus route slot values from AWS Alexa to slotId
     const slotId = handlerInput.requestEnvelope.request.intent.slots.BUS_ROUTE.resolutions.resolutionsPerAuthority[0].values[0].value.id
+    // sets stop information to the desired stop requested
     const stopInfo = STOP_ID_TO_NAME[stopId];
+    // sets bus information to the desired bus route requested
     const busInfo = BUS_ID_TO_NAME[slotId];
+    //calls CATA API & passes the stop Id that was requested in the original request
     const nextDeparture = await axios.get(`https://realtime.catabus.com/InfoPoint/rest/StopDepartures/Get/${stopInfo.stopId}`).then(response => response.data);
-    const foundBusInfoJson = nextDeparture[0].RouteDirections.find(busInfoJson => {
-      return busInfoJson.RouteId === busInfo.routeId;
+    //finds the desired bus route Id after finishing 'nextDeparture'
+    const foundRouteDirections = nextDeparture[0].RouteDirections.find(routeDirections => {
+      return routeDirections.RouteId === busInfo.routeId;
     });
 
-    const numberOfDepartures = foundBusInfoJson.Departures.length;
-
-    console.log(foundBusInfoJson);
-
-    console.log(numberOfDepartures);
+    const numberOfDepartures = foundRouteDirections.Departures.length;
     let speechText;
     if (numberOfDepartures !== 0) {
-      speechText = `There are currently ${numberOfDepartures} listed for the ${busInfo.name} at ${stopInfo.name}.`;
+      speechText = `There are currently ${numberOfDepartures} listed for the ${busInfo.name} at the ${stopInfo.name} bus stop.`;
     } else {
       speechText = `There are currently no departures listed for the ${busInfo.name} at ${stopInfo.name}.`;
     }
