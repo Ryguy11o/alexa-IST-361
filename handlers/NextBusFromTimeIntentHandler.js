@@ -13,6 +13,9 @@ const NextBusFromTimeIntentHandler = {
     const busInfo = BUS_ID_TO_NAME[slotId];
     const stopData = await axios.get(`https://realtime.catabus.com/InfoPoint/rest/StopDepartures/Get/${stopInfo.stopId}`).then(response => response.data);
     console.log(busInfo.routeId);
+
+    /* this is kind of working currently, you need to add functionality for if a stop doesn't service that route or if there are no
+       available times */
     stopData[0].RouteDirections.forEach(RouteDirection => {
       if (RouteDirection.RouteId === busInfo.routeId) {
         console.log(RouteDirection);
