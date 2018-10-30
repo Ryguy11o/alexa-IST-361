@@ -1,9 +1,5 @@
 const axios = require('axios');
-
-const {
-  BUS_ID_TO_NAME,
-  SKILL_NAME
-} = require('../utilities/constants/constants');
+const { BUS_ID_TO_NAME, SKILL_NAME } = require('../utilities/constants/constants');
 
 const BusRiderNumberFinderIntentHandler = {
   canHandle(handlerInput) {
@@ -16,7 +12,7 @@ const BusRiderNumberFinderIntentHandler = {
     const slotId = handlerInput.requestEnvelope.request.intent.slots.BUS_ROUTE.resolutions.resolutionsPerAuthority[0].values[0].value.id
     // const busInfo = BUS_ID_TO_NAME[slotId];
     // const routeData = await axios.get(`https://realtime.catabus.com/InfoPoint/rest/Vehicles/Get/${busInfo.slotId}`).then(response => response.data);
-    const routeData = await axios.get(`https://realtime.catabus.com/InfoPoint/rest/Vehicles/Get/1`).then(response => response.data);
+    const routeData = await axios.get(`https://realtime.catabus.com/InfoPoint/rest/RouteDetails/Get/1`).then(response => response.data);
     const numBuses = routeData.Vehicles.length;
     const numberOfRiders = routeData.Vehicles.map(vehicle => vehicle.OnBoard);
     console.log(numberOfRiders.toString());

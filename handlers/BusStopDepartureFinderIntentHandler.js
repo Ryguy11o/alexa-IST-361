@@ -6,10 +6,10 @@ const {
   SKILL_NAME
 } = require('../utilities/constants/constants');
 
-const BusStopTimeFinderIntentHandler = {
+const BusStopDepartureFinderIntentHandler = {
   canHandle(handlerInput) {
     return handlerInput.requestEnvelope.request.type === 'IntentRequest'
-        && handlerInput.requestEnvelope.request.intent.name === 'BusStopTimeFinderIntent';
+        && handlerInput.requestEnvelope.request.intent.name === 'BusStopDepartureFinderIntent';
   },
 
   async handle(handlerInput) {
@@ -42,5 +42,5 @@ const BusStopTimeFinderIntentHandler = {
 };
 
 module.exports = {
-  BusStopTimeFinderIntentHandler
+  BusStopDepartureFinderIntentHandler
 };
