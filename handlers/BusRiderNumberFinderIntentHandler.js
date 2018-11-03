@@ -24,7 +24,7 @@ const BusRiderNumberFinderIntentHandler = {
     } else if (numBuses === 1) {
       speechText = `There is ${numBuses.toString()} ${busInfo.name} currently running and there ${isOrAre} ${numberOfRiders[0].toString()} ${plural} listed for the ${busInfo.name}.`; // thinking of adding the amount for all blue loops, dictation would be weird though
     } else if (numBuses > 1) {
-      speechText = `There ${isOrAre} ${numBuses.toString()} ${busInfo.name}\'s currently running and the highest passenger amount is ${highestPassengerAmount} ${plural} listed for the ${busInfo.name}.`;
+      speechText = `There ${isOrAre} ${numBuses.toString()} ${busInfo.name}s currently running and the highest passenger amount is ${highestPassengerAmount} ${plural} listed for the ${busInfo.name}.`;
     } else if (numberOfRiders === 0) {
       speechText = `There are currently no passengers on the ${busInfo.name}.`;
     }
