@@ -12,8 +12,8 @@ const DESCRIPTION_DATE = {
   'final_exam_conflict': 'Sunday, October 14th',
   'late_drop_begins': 'Sunday, August 26th',
   'late_registration_begins': 'Monday, August 27th',
-  'final_exams': 'Monday through Friday of December 10th through 14th',
-  'thanksgiving_break': 'Sunday through Saturday,	November 18th through 24th'
+  'final_exams': 'Monday, December 10th through Friday, December 14th',
+  'thanksgiving_break': 'Sunday, November 18th through Saturday, November 24th'
 };
 
 const FALL_SCHEDULE = {
