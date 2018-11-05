@@ -16,7 +16,6 @@ const BusRiderNumberFinderIntentHandler = {
     const numberOfRiders = routeData.Vehicles.map(vehicle => vehicle.OnBoard);
     const plural = ((numberOfRiders === 1) ? 'passenger' : 'passengers'); // ternary for choosing singular or plural
     const isOrAre = ((numberOfRiders === 1) ? 'is' : 'are'); // ternary for choosing is or are
-    const lowestPassengerAmount = Math.min.apply(Math, numberOfRiders); // finds lowest passenger number
     const highestPassengerAmount = Math.max.apply(Math, numberOfRiders); // finds highest passenger number & retaining for future use
     let speechText;
     if (numBuses === 0) {
