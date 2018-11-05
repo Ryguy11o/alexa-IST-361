@@ -10,7 +10,9 @@
     "academic_test": "lambda-local -l main.js -h handler -e ./utilities/events/event.json",
     "cata_test": "lambda-local -l main.js -h handler -e ./utilities/events/cata.json",
     "semester_test": "lambda-local -l main.js -h handler -e ./utilities/events/semester.json",
-    "businfo_test": "lambda-local -l main.js -h handler -e ./utilities/events/bus-info.json"
+    "businfo_test": "lambda-local -l main.js -h handler -e ./utilities/events/bus-info.json",
+    "help_test": "lambda-local -l main.js -h handler -e ./utilities/events/help.json"
+
   },
   "repository": {
     "type": "git",
