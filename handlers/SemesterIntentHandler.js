@@ -1,4 +1,4 @@
-const { SEMESTER_YEAR, SKILL_NAME } = require('../utilities/constants/constants');
+const { DESCRIPTION_DATE, FALL_SCHEDULE, SPRING_SCHEDULE, MAYMESTER, SUMMER_SCHEDULE_FIRSTSECTION, SUMMER_SCHEDULE_SECONDSECTION, SKILL_NAME } = require('../utilities/constants/constants');
 
 const SemesterIntentHandler = {
   canHandle(handlerInput) {
@@ -7,7 +7,8 @@ const SemesterIntentHandler = {
   },
 
   handle(handlerInput) {
-    const speechText = SEMESTER_YEAR;
+    const slotId = handlerInput.requestEnvelope.request.intent.slots.SEMESTER;
+    const speechText = FALL_SCHEDULE;
 
     return handlerInput.responseBuilder
       .speak(speechText)
@@ -15,6 +16,8 @@ const SemesterIntentHandler = {
       .getResponse();
   }
 };
+
 module.exports = {
   SemesterIntentHandler
+
 };

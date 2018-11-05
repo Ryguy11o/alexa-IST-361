@@ -9,13 +9,116 @@ const DESCRIPTION_DATE = {
   'finals_week_begins': 'Monday, December 10th',
   'withdrawal_deadline_ends': 'Friday, December 7th',
   'declare_minor_deadline': 'Friday, November 9th',
-  'late_drop_deadline': 'Friday, November 9th',
   'final_exam_conflict': 'Sunday, October 14th',
   'late_drop_begins': 'Sunday, August 26th',
   'late_registration_begins': 'Monday, August 27th',
   'final_exams': 'Monday through Friday of December 10th through 14th',
   'thanksgiving_break': 'Sunday through Saturday,	November 18th through 24th'
 };
+
+const FALL_SCHEDULE = {
+  'classes_start': 'Monday, August 20th',
+  'classes_end': 'Friday, December 7th',
+  'student_reg_deadline': 'Sunday, August 19th',
+  'drop_deadline': 'Saturday, August 25th',
+  'add_deadline': ' Sunday, August 26 at 11:59 p.m. Eastern Time',
+  'finals_week_ends': 'Friday, December 14',
+  'withdrawl_deadline_ends': 'Friday, December 7th',
+  'finals_week_begins': 'Monday, December 10th',
+  'withdrawal_deadline_ends': 'Friday, December 7th',
+  'declare_minor_deadline': 'Friday, November 9th',
+  'late_drop_deadline': 'Friday, November 9th',
+  'final_exam_conflict' : 'Sunday, October 14th',
+  'late_drop_begins': 'Sunday, August 26th',
+  'late_registration_begins': 'Monday, August 27th',
+  'final_exams': 'Monday through Friday of December 10th through 14th',
+  'thanksgiving_break': 'Sunday through Saturday,	November 18th through 24th'
+};
+
+const SPRING_SCHEDULE = {
+  'classes_start': 'Monday, January 7th',
+  'classes_end': 'Friday, April 26th',
+  'student_reg_deadline': 'Sunday, January 6th',
+  'drop_deadline': 'Saturday, January 12th at 11:59 p.m. Eastern Time',
+  'add_deadline': 'Sunday, January 13th at 11:59 p.m. Eastern Time',
+  'finals_week_ends': 'Friday, May 3rd',
+  'withdrawl_deadline_ends': 'Friday, April 26th at 5:00 p.m. Eastern Time',
+  'finals_week_begins': 'Monday, April 29th',
+  'withdrawal_deadline_ends': 'Friday, April 26th at 5:00 p.m. Eastern Time',
+  'declare_minor_deadline': 'Friday, April 5th',
+  'late_drop_deadline': 'Friday, April 5th at 11:59 p.m. Eastern Time',
+  'final_exam_conflict': 'Monday, February 11th',
+  'late_drop_begins': 'Sunday, January 13th',
+  'late_registration_begins': 'Monday, January 14th',
+  'final_exams': 'Monday through Friday of April 29th through May 3rd',
+  'thanksgiving_break': 'There is no Thanksgiving break',
+  'spring_break': 'Sunday through Saturday of March 3rd through 9th'
+
+};
+
+const MAYMESTER = {
+  'classes_start': 'Monday, May 6th',
+  'classes_end': 'Monday, June 3rd',
+  'student_reg_deadline': 'Sunday, May 5th',
+  'drop_deadline': 'Tuesday, May 7th at 11:59 p.m. Eastern Time',
+  'add_deadline': 'Wednesday, May 8th at 11:59 p.m. Eastern Time',
+  'finals_week_ends': 'N/A',
+  'withdrawl_deadline_ends': 'Monday, June 3rd at 5:00 p.m. Eastern Time',
+  'finals_week_begins': 'Wednesday, June 5th',
+  'withdrawal_deadline_ends': 'Monday, June 3rd at 5:00 p.m. Eastern Time',
+  'declare_minor_deadline': 'N/A',
+  'late_drop_deadline': 'Tuesday, May 28th at 11:59 p.m. Eastern Time',
+  'final_exam_conflict': 'No conflict scheduling',
+  'late_drop_begins': 'Wednesday, May 8th at 11:59 p.m. Eastern Time',
+  'late_registration_begins': 'Thursday, May 9th',
+  'final_exams': 'Wednesday, June 5th',
+  'thanksgiving_break': 'There is no Thanksgiving break',
+  'spring_break' : 'There is no Spring break',
+  'memorial_day' : 'Monday, May 27th'
+
+};
+
+const SUMMER_SCHEDULE_FIRSTSECTION = {
+  'classes_start': 'Monday, May 13th',
+  'classes_end': 'Friday, June 21st',
+  'student_reg_deadline': 'Sunday, May 12th',
+  'drop_deadline': 'Wednesday, May 15th at 11:59 p.m. Eastern Time',
+  'add_deadline': 'Thursday, May 16th at 11:59 p.m. Eastern Time',
+  'finals_week_ends': 'Monday, June 24th',
+  'withdrawl_deadline_ends': 'Friday, June 21 at 5:00 p.m. Eastern Time',
+  'finals_week_begins': 'Monday, June 24th',
+  'withdrawal_deadline_ends': 'Friday June 21 at 5:00 p.m. Eastern Time',
+  'declare_minor_deadline': 'N/A',
+  'late_drop_deadline': 'Thursday, June 13th at 11:59 p.m. Eastern Time',
+  'final_exam_conflict': 'N/A',
+  'late_drop_begins': 'Wednesday, May 15th',
+  'late_registration_begins': 'Thursday, May 16th',
+  'final_exams': 'Monday, June 24th',
+  'thanksgiving_break': 'There is no Thanksgiving break'
+};
+
+const SUMMER_SCHEDULE_SECONDSECTION = {
+  'classes_start': 'Wednesday, June 26th',
+  'classes_end': 'Wednesday, August 7th',
+  'student_reg_deadline': 'Tuesday, June 25th',
+  'drop_deadline': 'Friday, June 28th at 11:59 p.m. Eastern Time',
+  'add_deadline': 'Saturday, June 29th at 11:59 p.m. Eastern Time',
+  'finals_week_ends': 'Friday, August 9th',
+  'withdrawl_deadline_ends': 'Wednesday, August 7th at 5:00 p.m. Eastern Time',
+  'finals_week_begins': 'Friday, August 9th',
+  'withdrawal_deadline_ends': 'Wednesday, August 7th at 5:00 p.m. Eastern Time',
+  'declare_minor_deadline': 'Monday, July 29th',
+  'late_drop_deadline': 'Monday, July 29th at 11:59 p.m. Eastern Time',
+  'final_exam_conflict': 'N/A',
+  'late_drop_begins': 'Friday, June 28th',
+  'late_registration_begins': 'Saturday, June 29th',
+  'final_exams': 'Friday August 9th',
+  'thanksgiving_break': 'There is no Thanksgiving break',
+  'independence_holiday': 'Thursday, July 4th'
+};
+
+
+
 
 const BUS_ID_TO_NAME = {
   'park_forest': {'name': 'A - Park Forest', 'routeId': 1},
@@ -64,5 +167,9 @@ module.exports = {
   HELP_MESSAGE: 'You can ask me questions about Happy Valley, or you can say exit... What can I help you with?',
   HELP_REPROMPT: 'What can I help you with?',
   STOP_MESSAGE: 'Goodbye!',
-  SEMESTER_YEAR: 'It is the Fall 2018 semester.'
+  FALL_SCHEDULE: 'It is the Fall 2018 semester.',
+  SPRING_SCHEDULE: 'It is the Spring 2019 semester.',
+  MAYMESTER: 'It is the 2019 Maymester',
+  SUMMER_SCHEDULE_FIRSTSECTION: 'It is the first six weeks of Summer session',
+  SUMMER_SCHEDULE_SECONDSECTION: 'It is the second six weks of Summer session'
 };

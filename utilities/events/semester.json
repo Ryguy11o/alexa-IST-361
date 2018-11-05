@@ -1,8 +1,8 @@
 {
 	"version": "1.0",
 	"session": {
-		"new": false,
-		"sessionId": "amzn1.echo-api.session.04ac116b-6269-40fa-a3b0-663f1a29e3d6",
+		"new": true,
+		"sessionId": "amzn1.echo-api.session.5bc67419-aa98-44a4-aae5-fce119b6e283",
 		"application": {
 			"applicationId": "amzn1.ask.skill.7f38e6e1-9c0c-464a-b950-c07c5e174084"
 		},
@@ -23,13 +23,32 @@
 				"supportedInterfaces": {}
 			},
 			"apiEndpoint": "https://api.amazonalexa.com",
-			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjdmMzhlNmUxLTljMGMtNDY0YS1iOTUwLWMwN2M1ZTE3NDA4NCIsImV4cCI6MTU0MDI0NDE1MywiaWF0IjoxNTQwMjQwNTUzLCJuYmYiOjE1NDAyNDA1NTMsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUZQVzJSWUM0R0paTFJTNURDWUZORjRFTk9LSFJQVzM1RU5QVlpFQ0NVRVJKWVZHMzNGSlIyWkU2SFJERFhERVQyN0Q3UVFON1RUWTc1M05RS1NTMlNKVEE1SDdZUllCSTVZTUFOSzMzNkZXVUFNTzZEN1RaUlBXUUpaVkhMRzVYNjI0NFJSNldPQko1TkFFM1MyUVJOUERNTU9GN0JQQVpaRUZSWkRJR0RNTDNJNFBIWk5DSyIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFFSFA0M0dQRFlHVVg1QVZMUVBFU1hIVVJWUDVWUzY1NlFVQUtDREdZVVlEQklBNVNCS1NTRzdMRkFRRUVRUTNISUhPQVNCV1JPVUtQV0ZCNko2WUZZQVZIM0ZaNVVFS0NJTFlaMlpLNVVXNTRNNEdESlZOSUFRTFBOVTJOVkE3WU1XRzI2UkpFN0FUTFQzTkpKNTNFRUhFVENBWVpWSlZKTFRTUlYyNFBZSEFNWFdKWUtSNVNWQUFVSE9GR1pMVUtTWTdUVTQ3NFhXUDJMWSJ9fQ.g0Neld_kLZMwEqjw2xhXVrlQIdlQGxrZBEOMZuuTC4R7Bd6HQrLcXcVFuk-lNp44nqcNb8UmeuDxEl1np7FMm_xX-X98UWR002usxKS_OuyfOO7W-QmUTib2wMi1ii6AGTlb84FyIJ6Zqjg4YFoL1JRL8kYDi7PMsjB0EQxm7Pq2VzLtFc95n6wtiFq5ZcxM3vB5wJgXQ4oJWVqF83L7NGAgR-dYLONIm_y3bdg7fp1UkJceCmdOZIjUJ3TG8PcIidFNBqvDw3CPvIKPBaCsX3iEGoVLY5mEmukAIQtgGL0fc_Ihka8yH0SPjD4p3xa62_-fYTCe8Xg73NbajJQ-Tg"
+			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjdmMzhlNmUxLTljMGMtNDY0YS1iOTUwLWMwN2M1ZTE3NDA4NCIsImV4cCI6MTU0MTM4MTQ1NCwiaWF0IjoxNTQxMzc3ODU0LCJuYmYiOjE1NDEzNzc4NTQsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUZQVzJSWUM0R0paTFJTNURDWUZORjRFTk9LSFJQVzM1RU5QVlpFQ0NVRVJKWVZHMzNGSlIyWkU2SFJERFhERVQyN0Q3UVFON1RUWTc1M05RS1NTMlNKVEE1SDdZUllCSTVZTUFOSzMzNkZXVUFNTzZEN1RaUlBXUUpaVkhMRzVYNjI0NFJSNldPQko1TkFFM1MyUVJOUERNTU9GN0JQQVpaRUZSWkRJR0RNTDNJNFBIWk5DSyIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFFSFA0M0dQRFlHVVg1QVZMUVBFU1hIVVJWUDVWUzY1NlFVQUtDREdZVVlEQklBNVNCS1NTRzdMRkFRRUVRUTNISUhPQVNCV1JPVUtQV0ZCNko2WUZZQVZIM0ZaNVVFS0NJTFlaMlpLNVVXNTRNNEdESlZOSUFRTFBOVTJOVkE3WU1XRzI2UkpFN0FUTFQzTkpKNTNFRUhFVENBWVpWSlZKTFRTUlYyNFBZSEFNWFdKWUtSNVNWQUFVSE9GR1pMVUtTWTdUVTQ3NFhXUDJMWSJ9fQ.HoOWTX59lV_7s-bV18iEMz4hBLGhYm2AiToEYDjS-qip3YUErcpy0R3X_b4DYNj1Jm_oF6yig5t5K0qw3dpSCBC1455K1x1VPQoRsOsZL8Ei3a4pwLTuMKVzDZPZOkv3mvPoYx7LS4lqC7Bb82wZwzAyIp-1BgOE-mdOdC81LVG2vZT0ctKC3pVjKkVKI_59Gyj2ke-fJ4F4erEyUAheacjEq7Ce23FIcv9IfyupwyIjDnEEKDK2GmukmRafEd6KtQKSS_ody9i2_inWsRUTTw1CIZxlz_sT8Z1D2p4R-NNtEsbZt_jBpInv2HzaQAYIiKptXBZhms-7dfVk_Pa-ww"
+		},
+		"Viewport": {
+			"experiences": [
+				{
+					"arcMinuteWidth": 246,
+					"arcMinuteHeight": 144,
+					"canRotate": false,
+					"canResize": false
+				}
+			],
+			"shape": "RECTANGLE",
+			"pixelWidth": 1024,
+			"pixelHeight": 600,
+			"dpi": 160,
+			"currentPixelWidth": 1024,
+			"currentPixelHeight": 600,
+			"touch": [
+				"SINGLE"
+			]
 		}
 	},
 	"request": {
 		"type": "IntentRequest",
-		"requestId": "amzn1.echo-api.request.4339a29c-1f3b-4855-9250-3bcdca3ed090",
-		"timestamp": "2018-10-22T20:35:53Z",
+		"requestId": "amzn1.echo-api.request.b69832f2-3911-45e4-a5df-11ea526db4f4",
+		"timestamp": "2018-11-05T00:30:54Z",
 		"locale": "en-US",
 		"intent": {
 			"name": "SEMESTER_YEAR",
@@ -37,27 +56,11 @@
 			"slots": {
 				"SEMESTER": {
 					"name": "SEMESTER",
-					"value": "semester",
-					"resolutions": {
-						"resolutionsPerAuthority": [
-							{
-								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.7f38e6e1-9c0c-464a-b950-c07c5e174084.SEMESTER",
-								"status": {
-									"code": "ER_SUCCESS_MATCH"
-								},
-								"values": [
-									{
-										"value": {
-											"name": "Semester",
-											"id": "semester"
-										}
-									}
-								]
-							}
-						]
-					},
-					"confirmationStatus": "NONE",
-					"source": "USER"
+					"confirmationStatus": "NONE"
+				},
+				"Description": {
+					"name": "Description",
+					"confirmationStatus": "NONE"
 				}
 			}
 		}
