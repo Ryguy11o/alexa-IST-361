@@ -1,8 +1,8 @@
 {
 	"version": "1.0",
 	"session": {
-		"new": false,
-		"sessionId": "amzn1.echo-api.session.bcbc07d7-32d7-49d3-992b-2f5aba3ef188",
+		"new": true,
+		"sessionId": "amzn1.echo-api.session.2528d1c2-f0c0-47f3-afe6-11b17716d400",
 		"application": {
 			"applicationId": "amzn1.ask.skill.7f38e6e1-9c0c-464a-b950-c07c5e174084"
 		},
@@ -23,7 +23,7 @@
 				"supportedInterfaces": {}
 			},
 			"apiEndpoint": "https://api.amazonalexa.com",
-			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjdmMzhlNmUxLTljMGMtNDY0YS1iOTUwLWMwN2M1ZTE3NDA4NCIsImV4cCI6MTU0MDkyMzQ5NCwiaWF0IjoxNTQwOTE5ODk0LCJuYmYiOjE1NDA5MTk4OTQsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUZaUUZOQVA2T0lVN0RJS1pPNjNOM0FHUURHMllBNzdUSEZVSllQVFBQUzNTWFJGNFhRSlM2NFBZSFNBUlc3QUpKU1ZSR1VCVzIzUUNWVVNTR0tUM09FNVNGQ1VRUFE0VUVVVEFSWldCR1pDRk1PSzM1R0NPNktJTUdDNkdBTEtQTlRXNExYR1haMkZIMkRaNTJPMlhZSVBLMllRIiwidXNlcklkIjoiYW16bjEuYXNrLmFjY291bnQuQUZTWkNSQkhCVE5JQ1lTNlg3STVTNFFITENTWkdHTVlITkJHSVlCS0hYR0pLQkpUSElUMjZYTlBDRlVZV0ZaWVJOSVdZUDU1RVFHVFQ3RjRLS0ZBS0RXS1NISU9aU0VHWlJLTUdINlZSN1kyRlBCSkxBREVJRVkyVEZLSFE3SVJGS0FHUkFXVzJJV0hQWkhRSDNYVFhZWE5UMkpaVFEzNU42NENKSlQ1UUNSRTNLRFFYWkZaVklGN0NMTEdCTFlXUllCUVpTN1FQVUpIQ0ZRIn19.IGZ2XQzZxPYdWh0sZsmkB2z6fgIqTdLIw8SiBfd-k88qUBsN_OHXKhG_dw6R8eRSxrzYwBMkyW6RHnfCKTUkPjN-YZ7_NKrQetol8XkIj1Co2LCwjFPsNbmNam9a8cd-6BYkNHxOjedg3a2X4v-n5H8Wr469h2pvfe0QbC4-zstjcqDtodyPOdZgZWqkUAN7VuYsS1sG4OFnw2_myevbeMXjQqKnsK4K3TBKOgx_suuKMR0eYHTggIr09VZdcFt6KWgCgWaxP86x6XdmaVd5d-3AbjkunL4bl2YzypEA0am5cuJVX1yURwSrbJLedDVW_MsTlEsaRVhZ31N8wiqP-w"
+			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjdmMzhlNmUxLTljMGMtNDY0YS1iOTUwLWMwN2M1ZTE3NDA4NCIsImV4cCI6MTU0MTU0ODkwMywiaWF0IjoxNTQxNTQ1MzAzLCJuYmYiOjE1NDE1NDUzMDMsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUZaUUZOQVA2T0lVN0RJS1pPNjNOM0FHUURHMllBNzdUSEZVSllQVFBQUzNTWFJGNFhRSlM2NFBZSFNBUlc3QUpKU1ZSR1VCVzIzUUNWVVNTR0tUM09FNVNGQ1VRUFE0VUVVVEFSWldCR1pDRk1PSzM1R0NPNktJTUdDNkdBTEtQTlRXNExYR1haMkZIMkRaNTJPMlhZSVBLMllRIiwidXNlcklkIjoiYW16bjEuYXNrLmFjY291bnQuQUZTWkNSQkhCVE5JQ1lTNlg3STVTNFFITENTWkdHTVlITkJHSVlCS0hYR0pLQkpUSElUMjZYTlBDRlVZV0ZaWVJOSVdZUDU1RVFHVFQ3RjRLS0ZBS0RXS1NISU9aU0VHWlJLTUdINlZSN1kyRlBCSkxBREVJRVkyVEZLSFE3SVJGS0FHUkFXVzJJV0hQWkhRSDNYVFhZWE5UMkpaVFEzNU42NENKSlQ1UUNSRTNLRFFYWkZaVklGN0NMTEdCTFlXUllCUVpTN1FQVUpIQ0ZRIn19.BC8nbgNSdCTNJU1hnwqNMoidKzEH2R_SX8MIilGZX9XBKdcOnOVTqYPihjp3pYcugHRDC42tzFLa4U8px0p_nt5WtM5qyO-4_vDbNxZpEOyOq8FFvKl4w3PfnrnACnXSQ99RZ-Sc5FLRibGKwxwkuxPq2MdZlJ5GtxGwRO4R_acjHeL9k5-1vAcMBQZj2cQMdEtG1sA4xCP4HGhydG8OwB6QTS0oSR7h9Ih3K-otyUOlBorVOt8ldJvX-33Afe4fGhXOpnxXddPvPPEp-mkkuR9dbpqc41x0iPo_sLfeGD8oASsxMvJKWhZ4UlK3_5VIlRVrWL2F01nckKk7fAsPPg"
 		},
 		"Viewport": {
 			"experiences": [
@@ -47,8 +47,8 @@
 	},
 	"request": {
 		"type": "IntentRequest",
-		"requestId": "amzn1.echo-api.request.7e131631-8d03-47f6-bef1-4272e2fac5a2",
-		"timestamp": "2018-10-30T17:18:14Z",
+		"requestId": "amzn1.echo-api.request.ae944c1e-0ce1-4fd5-aa39-3d15ad43c8bf",
+		"timestamp": "2018-11-06T23:01:43Z",
 		"locale": "en-US",
 		"intent": {
 			"name": "NextBusFromTime",
@@ -56,7 +56,7 @@
 			"slots": {
 				"BUS_ROUTE": {
 					"name": "BUS_ROUTE",
-					"value": "white loop",
+					"value": "university terrace",
 					"resolutions": {
 						"resolutionsPerAuthority": [
 							{
@@ -67,8 +67,8 @@
 								"values": [
 									{
 										"value": {
-											"name": "White Loop",
-											"id": "rc_route"
+											"name": "University Terrace",
+											"id": "university_terrace"
 										}
 									}
 								]
@@ -80,13 +80,11 @@
 				},
 				"TIME": {
 					"name": "TIME",
-					"value": "14:00",
-					"confirmationStatus": "NONE",
-					"source": "USER"
+					"confirmationStatus": "NONE"
 				},
 				"STOP_ID": {
 					"name": "STOP_ID",
-					"value": "the library",
+					"value": "library",
 					"resolutions": {
 						"resolutionsPerAuthority": [
 							{
