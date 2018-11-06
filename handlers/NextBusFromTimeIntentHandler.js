@@ -8,7 +8,7 @@ function formatTime(unixTime) {
   let hours = parseInt(date.getHours(), 10);
   let AM_PM = '';
 
-  if (minutes < 9) {
+  if (minutes < 10) {
     minutes = '0' + minutes;
   }
 
@@ -36,20 +36,13 @@ const NextBusFromTimeIntentHandler = {
     const stopInfo = STOP_ID_TO_NAME[stopId];
     const busInfo = BUS_ID_TO_NAME[slotId];
     const stopData = await axios.get(`https://realtime.catabus.com/InfoPoint/rest/StopDepartures/Get/${stopInfo.stopId}`).then(response => response.data);
-    // console.log('Bus Info: ');
-    // console.log(busInfo);
-    // console.log('Stop INfo: ');
-    // console.log(stopInfo);
-
-    /* this is kind of working currently, you need to add functionality for if a stop doesn't service that route or if there are no
-       available times */
     const RouteDirections = stopData[0].RouteDirections.filter(RouteDirection => {
       if (RouteDirection.RouteId === busInfo.routeId) {
         return RouteDirection;
       }
       return false;
     });
-    // console.log(RouteDirections);
+
     const times = [];
     RouteDirections.forEach(RouteDirection => {
       if (RouteDirection) {
@@ -57,13 +50,18 @@ const NextBusFromTimeIntentHandler = {
           let unixTime = /\d\d\d\d\d\d\d\d\d\d\d\d\d/;
           const edt = parseInt(unixTime.exec(departure.EDT), 10);
           let time = formatTime(edt);
-          console.log(time);
           times.push(time);
         });
       }
     });
 
-    const speechText = 'Hello';
+    let speechText;
+    if (times.length > 0) {
+      speechText = `The ${busInfo.name} is scheduled to depart from ${stopInfo.name} at the following times: ${times.toString()}.`;
+    } else {
+      speechText = `There are currently no scheduled departures for the ${busInfo.name} at the ${stopInfo.name} stop. Some busses, like the white loop and blue loop, do not have schedules.`;
+    }
+
     return handlerInput.responseBuilder
       .speak(speechText)
       .withSimpleCard(SKILL_NAME, speechText)
