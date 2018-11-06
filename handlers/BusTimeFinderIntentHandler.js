@@ -2,7 +2,7 @@ const axios = require('axios');
 
 const {
   BUS_ID_TO_NAME, STOP_ID_TO_NAME
-} = require('..utilities/constants/constans.js');
+} = require('../utilities/constants/constants');
 
 const BusStopDepartureFinderIntentHandler = {
   canHandle(handlerInput) {
@@ -22,8 +22,25 @@ const BusStopDepartureFinderIntentHandler = {
     const nextDeparture = await axios.get(`https://realtime.catabus.com/InfoPoint/rest/StopDepartures/Get/${stopInfo.stopId}`).then(response => response.data);
 
     const findBus = nextDeparture[0].RouteDirections.find(routeDirections => {
-      if(routeDirections.RouteId === busInfo.routeId){
-        
-      };
+      return routeDirections.RouteId === busInfo.routeId;
     });
+
+    const numberOfDepartures = findBus.Departures.length;
+
+    const getDepartures = findBus.Departures[0].map(departures => departures.EDALocalTime);
+    let speechText;
+    if (numberOfDepartures !== 0) {
+      speechText = `The next ${busInfo.name} at the ${stopInfo.name} bus stop is ${getDepartures.toString()}`;
+    } else {
+      speechText = `There are currently no departures listed for the ${busInfo.name} at ${stopInfo.name}.`;
+    }
+    return handlerInput.responseBuilder
+      .speak(speechText)
+      .withSimpleCard(SKILL_NAME, speechText)
+      .getResponse();
   }
+};
+
+module.exports = {
+  BusTimeFinderIntentHandler
+};
