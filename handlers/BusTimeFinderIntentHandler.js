@@ -4,7 +4,7 @@ const {
   BUS_ID_TO_NAME, STOP_ID_TO_NAME
 } = require('../utilities/constants/constants');
 
-const BusStopDepartureFinderIntentHandler = {
+const BusTimeFinderIntentHandler = {
   canHandle(handlerInput) {
     return handlerInput.requestEnvelope.request.type === 'IntentRequest'
         && handlerInput.requestEnvelope.request.intent.name === 'BusTimeFinderIntent';
