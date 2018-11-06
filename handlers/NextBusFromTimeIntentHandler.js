@@ -36,10 +36,10 @@ const NextBusFromTimeIntentHandler = {
     const stopInfo = STOP_ID_TO_NAME[stopId];
     const busInfo = BUS_ID_TO_NAME[slotId];
     const stopData = await axios.get(`https://realtime.catabus.com/InfoPoint/rest/StopDepartures/Get/${stopInfo.stopId}`).then(response => response.data);
-    console.log('Bus Info: ');
-    console.log(busInfo);
-    console.log('Stop INfo: ');
-    console.log(stopInfo);
+    // console.log('Bus Info: ');
+    // console.log(busInfo);
+    // console.log('Stop INfo: ');
+    // console.log(stopInfo);
 
     /* this is kind of working currently, you need to add functionality for if a stop doesn't service that route or if there are no
        available times */
@@ -49,7 +49,7 @@ const NextBusFromTimeIntentHandler = {
       }
       return false;
     });
-    console.log(RouteDirections);
+    // console.log(RouteDirections);
     const times = [];
     RouteDirections.forEach(RouteDirection => {
       if (RouteDirection) {
