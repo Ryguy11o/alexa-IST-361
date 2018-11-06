@@ -1,0 +1,108 @@
+{
+	"version": "1.0",
+	"session": {
+		"new": false,
+		"sessionId": "amzn1.echo-api.session.126eac93-a4cd-4f60-865d-8c0b7e5adfff",
+		"application": {
+			"applicationId": "amzn1.ask.skill.7f38e6e1-9c0c-464a-b950-c07c5e174084"
+		},
+		"user": {
+			"userId": "amzn1.ask.account.AEG6RKGXA2EMQCBR47PILUSMSI77YOZFHXRK53AGA3JYVGCCWGJPMT2GE2ZYO7SIORNQZ6BE6QGFBSTCR2LL2XDUNNFUBGMJU2IRQFII3O2ETRXC5LRZCT7HEVQWD37WQ4MSBEGA3OTO5JQWSZC3EIC7KPLYJ4YMCNUIKMIGOPN7FPAQH4X5RS5S764GPXJY2MPU3BQUF6CU5RQ"
+		}
+	},
+	"context": {
+		"System": {
+			"application": {
+				"applicationId": "amzn1.ask.skill.7f38e6e1-9c0c-464a-b950-c07c5e174084"
+			},
+			"user": {
+				"userId": "amzn1.ask.account.AEG6RKGXA2EMQCBR47PILUSMSI77YOZFHXRK53AGA3JYVGCCWGJPMT2GE2ZYO7SIORNQZ6BE6QGFBSTCR2LL2XDUNNFUBGMJU2IRQFII3O2ETRXC5LRZCT7HEVQWD37WQ4MSBEGA3OTO5JQWSZC3EIC7KPLYJ4YMCNUIKMIGOPN7FPAQH4X5RS5S764GPXJY2MPU3BQUF6CU5RQ"
+			},
+			"device": {
+				"deviceId": "amzn1.ask.device.AFAWIRPGLMLPSCZWUE3BUJ7CKAXL52SI4TFB2PO5OJFQEYSCNFPGHEIOLRYPYSXIABXQBAIH2NO56GA6Z6D2QR4JOCDGPYSG544T7QCKXEQAW3V4HTXUZKFQWCZQ6JLQTA6JNOR46F3HZWPBLRHLGEB56ESPWKXCZTUR5GFZUSMMJEB2C3L4Q",
+				"supportedInterfaces": {}
+			},
+			"apiEndpoint": "https://api.amazonalexa.com",
+			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjdmMzhlNmUxLTljMGMtNDY0YS1iOTUwLWMwN2M1ZTE3NDA4NCIsImV4cCI6MTU0MTQ4MDkzNCwiaWF0IjoxNTQxNDc3MzM0LCJuYmYiOjE1NDE0NzczMzQsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUZBV0lSUEdMTUxQU0NaV1VFM0JVSjdDS0FYTDUyU0k0VEZCMlBPNU9KRlFFWVNDTkZQR0hFSU9MUllQWVNYSUFCWFFCQUlIMk5PNTZHQTZaNkQyUVI0Sk9DREdQWVNHNTQ0VDdRQ0tYRVFBVzNWNEhUWFVaS0ZRV0NaUTZKTFFUQTZKTk9SNDZGM0haV1BCTFJITEdFQjU2RVNQV0tYQ1pUVVI1R0ZaVVNNTUpFQjJDM0w0USIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFFRzZSS0dYQTJFTVFDQlI0N1BJTFVTTVNJNzdZT1pGSFhSSzUzQUdBM0pZVkdDQ1dHSlBNVDJHRTJaWU83U0lPUk5RWjZCRTZRR0ZCU1RDUjJMTDJYRFVOTkZVQkdNSlUySVJRRklJM08yRVRSWEM1TFJaQ1Q3SEVWUVdEMzdXUTRNU0JFR0EzT1RPNUpRV1NaQzNFSUM3S1BMWUo0WU1DTlVJS01JR09QTjdGUEFRSDRYNVJTNVM3NjRHUFhKWTJNUFUzQlFVRjZDVTVSUSJ9fQ.INa4Sg6pTDlxhJZeV2_uGfONwrjY5jyYaCWEts3LdGsI_P2C91fdCftNSYCxWD2TLZfF-H94pZLZI_t-pmzVxD9QNZBcF0vng0FKq1GPhzAcvaGkhNmtatUuWTvV_JcTDDIdGmJhHcjBQ19JOI6qddk9stf_XWxlULFybgJkZZxEGteTfzvsqSG5VNgN2bP6lqqzj6e0or5Qr1pTtOQ0D8lGVaaD3uyccIfrkO6rX3NhGek62fBRnz354yG3g296cGNC1h2GpbOJna6GXfcI-5ANeX-TrnlGHcQa-uQzNkVr66wjy2CdqDfxf47FiSJKxNt6QskYLlE6V5SC80rcbA"
+		},
+		"Viewport": {
+			"experiences": [
+				{
+					"arcMinuteWidth": 246,
+					"arcMinuteHeight": 144,
+					"canRotate": false,
+					"canResize": false
+				}
+			],
+			"shape": "RECTANGLE",
+			"pixelWidth": 1024,
+			"pixelHeight": 600,
+			"dpi": 160,
+			"currentPixelWidth": 1024,
+			"currentPixelHeight": 600,
+			"touch": [
+				"SINGLE"
+			]
+		}
+	},
+	"request": {
+		"type": "IntentRequest",
+		"requestId": "amzn1.echo-api.request.01d99230-d2bb-4db3-82e6-83fe3a364aa3",
+		"timestamp": "2018-11-06T04:08:54Z",
+		"locale": "en-US",
+		"intent": {
+			"name": "BusTimeFinderIntent",
+			"confirmationStatus": "NONE",
+			"slots": {
+				"BUS_ROUTE": {
+					"name": "BUS_ROUTE",
+					"value": "martin street Aaron drive",
+					"resolutions": {
+						"resolutionsPerAuthority": [
+							{
+								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.7f38e6e1-9c0c-464a-b950-c07c5e174084.BUS_ROUTE",
+								"status": {
+									"code": "ER_SUCCESS_MATCH"
+								},
+								"values": [
+									{
+										"value": {
+											"name": "Martin Street Aaron Drive",
+											"id": "n_route"
+										}
+									}
+								]
+							}
+						]
+					},
+					"confirmationStatus": "NONE",
+					"source": "USER"
+				},
+				"STOP_ID": {
+					"name": "STOP_ID",
+					"value": "college avenue at Allen street",
+					"resolutions": {
+						"resolutionsPerAuthority": [
+							{
+								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.7f38e6e1-9c0c-464a-b950-c07c5e174084.STOP_ID",
+								"status": {
+									"code": "ER_SUCCESS_MATCH"
+								},
+								"values": [
+									{
+										"value": {
+											"name": "College Avenue at Allen Street",
+											"id": "college_avenue_at_allen_street"
+										}
+									}
+								]
+							}
+						]
+					},
+					"confirmationStatus": "NONE",
+					"source": "USER"
+				}
+			}
+		}
+	}
+}
