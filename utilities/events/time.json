@@ -68,7 +68,7 @@
 									{
 										"value": {
 											"name": "University Terrace",
-											"id": "white_loop"
+											"id": "cato_park"
 										}
 									}
 								]
@@ -77,10 +77,6 @@
 					},
 					"confirmationStatus": "NONE",
 					"source": "USER"
-				},
-				"TIME": {
-					"name": "TIME",
-					"confirmationStatus": "NONE"
 				},
 				"STOP_ID": {
 					"name": "STOP_ID",
@@ -96,7 +92,7 @@
 									{
 										"value": {
 											"name": "Pattee Transit Center Eastbound",
-											"id": "pattee_transit_center_eastbound"
+											"id": "Shortlidge_Rd_at_White_Building"
 										}
 									}
 								]
