@@ -3,10 +3,10 @@ const { GetNewFactIntentHandler } = require('./handlers/GetNewFactIntentHandler'
 const { BusFinderIntentHandler } = require('./handlers/BusFinderIntentHandler');
 const { SemesterIntentHandler } = require('./handlers/SemesterIntentHandler');
 const { BusInfoIntentHandler } = require('./handlers/BusInfoIntentHandler');
+const { HelpIntentHandler } = require('./handlers/HelpIntentHandler');
 
 const {
   LaunchRequestHandler,
-  HelpIntentHandler,
   CancelAndStopIntentHandler,
   SessionEndedRequestHandler,
   ErrorHandler

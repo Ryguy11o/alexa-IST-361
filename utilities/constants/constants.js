@@ -59,7 +59,7 @@ module.exports = {
   DESCRIPTION_DATE,
   BUS_ID_TO_NAME,
   APP_ID: 'amzn1.ask.skill.7f38e6e1-9c0c-464a-b950-c07c5e174084',
-  WELCOME_MESSAGE: 'Welcome to P.S.U Helper, you can ask me different questions about Penn State!',
+  WELCOME_MESSAGE: 'Welcome to Happy Valley Helper, you can ask me different questions about Penn State!',
   SKILL_NAME: 'Happy Valley Helper',
   HELP_MESSAGE: 'You can ask me questions about Penn State and the State College area! Currently I support questions about the current academic year, and questions about the CATA bus system.  Or you can say exit.  How may I help you?',
   HELP_REPROMPT: 'What can I help you with?',
