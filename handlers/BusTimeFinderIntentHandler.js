@@ -10,7 +10,7 @@ const BusTimeFinderIntentHandler = {
         && handlerInput.requestEnvelope.request.intent.name === 'BusTimeFinderIntent';
   },
 
-  async handle(handlerInput){
+  async handle(handlerInput) {
     // sets bus stop values from AWS Alexa to stopId
     const stopId = handlerInput.requestEnvelope.request.intent.slots.STOP_ID.resolutions.resolutionsPerAuthority[0].values[0].value.id;
     // sets bus route slot values from AWS Alexa to slotId
