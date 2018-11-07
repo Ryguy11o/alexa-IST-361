@@ -9,8 +9,9 @@
     "test": "npm run academic_test && npm run cata_test",
     "academic_test": "lambda-local -l main.js -h handler -e ./utilities/events/event.json",
     "cata_test": "lambda-local -l main.js -h handler -e ./utilities/events/cata.json",
-    "cata-depart-test": "lambda-local -l main.js -h handler -e ./utilities/events/cata-depart-test.json",
     "semester_test": "lambda-local -l main.js -h handler -e ./utilities/events/semester.json",
+    "time_test": "lambda-local -l main.js -h handler -e ./utilities/events/time.json",
+    "cata-depart-test": "lambda-local -l main.js -h handler -e ./utilities/events/cata-depart-test.json",
     "businfo_test": "lambda-local -l main.js -h handler -e ./utilities/events/bus-info.json",
     "number-of-passengers": "lambda-local -l main.js -h handler -e ./utilities/events/number-of-passengers.json",
     "help_test": "lambda-local -l main.js -h handler -e ./utilities/events/help.json"
