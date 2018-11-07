@@ -13,7 +13,9 @@
     "semester_test": "lambda-local -l main.js -h handler -e ./utilities/events/semester.json",
     "businfo_test": "lambda-local -l main.js -h handler -e ./utilities/events/bus-info.json",
     "number-of-passengers": "lambda-local -l main.js -h handler -e ./utilities/events/number-of-passengers.json",
-    "help_test": "lambda-local -l main.js -h handler -e ./utilities/events/help.json"
+    "help_test": "lambda-local -l main.js -h handler -e ./utilities/events/help.json",
+    "fare-no-slot-test": "lambda-local -l main.js -h handler -e ./utilities/events/bus-fare-no-slot.json",
+    "fare-with-slot-test": "lambda-local -l main.js -h handler -e ./utilities/events/bus-fare-with-slot.json"
   },
   "repository": {
     "type": "git",
