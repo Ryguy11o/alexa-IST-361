@@ -25,10 +25,10 @@ function formatTime(unixTime) {
   return `${hours}:${minutes} ${AM_PM}`;
 }
 
-const NextBusFromTimeIntentHandler = {
+const BusScheduleIntentHandler = {
   canHandle(handlerInput) {
     return handlerInput.requestEnvelope.request.type === 'IntentRequest'
-        && handlerInput.requestEnvelope.request.intent.name === 'NextBusFromTime';
+        && handlerInput.requestEnvelope.request.intent.name === 'BusScheduleIntent';
   },
   async handle(handlerInput) {
     const slotId = handlerInput.requestEnvelope.request.intent.slots.BUS_ROUTE.resolutions.resolutionsPerAuthority[0].values[0].value.id;
@@ -70,5 +70,5 @@ const NextBusFromTimeIntentHandler = {
 };
 
 module.exports = {
-  NextBusFromTimeIntentHandler
+  BusScheduleIntentHandler
 };

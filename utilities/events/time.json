@@ -1,8 +1,8 @@
 {
 	"version": "1.0",
 	"session": {
-		"new": true,
-		"sessionId": "amzn1.echo-api.session.2528d1c2-f0c0-47f3-afe6-11b17716d400",
+		"new": false,
+		"sessionId": "amzn1.echo-api.session.692d72fe-5296-4887-964e-229ddd88fba7",
 		"application": {
 			"applicationId": "amzn1.ask.skill.7f38e6e1-9c0c-464a-b950-c07c5e174084"
 		},
@@ -23,7 +23,7 @@
 				"supportedInterfaces": {}
 			},
 			"apiEndpoint": "https://api.amazonalexa.com",
-			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjdmMzhlNmUxLTljMGMtNDY0YS1iOTUwLWMwN2M1ZTE3NDA4NCIsImV4cCI6MTU0MTU0ODkwMywiaWF0IjoxNTQxNTQ1MzAzLCJuYmYiOjE1NDE1NDUzMDMsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUZaUUZOQVA2T0lVN0RJS1pPNjNOM0FHUURHMllBNzdUSEZVSllQVFBQUzNTWFJGNFhRSlM2NFBZSFNBUlc3QUpKU1ZSR1VCVzIzUUNWVVNTR0tUM09FNVNGQ1VRUFE0VUVVVEFSWldCR1pDRk1PSzM1R0NPNktJTUdDNkdBTEtQTlRXNExYR1haMkZIMkRaNTJPMlhZSVBLMllRIiwidXNlcklkIjoiYW16bjEuYXNrLmFjY291bnQuQUZTWkNSQkhCVE5JQ1lTNlg3STVTNFFITENTWkdHTVlITkJHSVlCS0hYR0pLQkpUSElUMjZYTlBDRlVZV0ZaWVJOSVdZUDU1RVFHVFQ3RjRLS0ZBS0RXS1NISU9aU0VHWlJLTUdINlZSN1kyRlBCSkxBREVJRVkyVEZLSFE3SVJGS0FHUkFXVzJJV0hQWkhRSDNYVFhZWE5UMkpaVFEzNU42NENKSlQ1UUNSRTNLRFFYWkZaVklGN0NMTEdCTFlXUllCUVpTN1FQVUpIQ0ZRIn19.BC8nbgNSdCTNJU1hnwqNMoidKzEH2R_SX8MIilGZX9XBKdcOnOVTqYPihjp3pYcugHRDC42tzFLa4U8px0p_nt5WtM5qyO-4_vDbNxZpEOyOq8FFvKl4w3PfnrnACnXSQ99RZ-Sc5FLRibGKwxwkuxPq2MdZlJ5GtxGwRO4R_acjHeL9k5-1vAcMBQZj2cQMdEtG1sA4xCP4HGhydG8OwB6QTS0oSR7h9Ih3K-otyUOlBorVOt8ldJvX-33Afe4fGhXOpnxXddPvPPEp-mkkuR9dbpqc41x0iPo_sLfeGD8oASsxMvJKWhZ4UlK3_5VIlRVrWL2F01nckKk7fAsPPg"
+			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjdmMzhlNmUxLTljMGMtNDY0YS1iOTUwLWMwN2M1ZTE3NDA4NCIsImV4cCI6MTU0MTU1MjMyOSwiaWF0IjoxNTQxNTQ4NzI5LCJuYmYiOjE1NDE1NDg3MjksInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUZaUUZOQVA2T0lVN0RJS1pPNjNOM0FHUURHMllBNzdUSEZVSllQVFBQUzNTWFJGNFhRSlM2NFBZSFNBUlc3QUpKU1ZSR1VCVzIzUUNWVVNTR0tUM09FNVNGQ1VRUFE0VUVVVEFSWldCR1pDRk1PSzM1R0NPNktJTUdDNkdBTEtQTlRXNExYR1haMkZIMkRaNTJPMlhZSVBLMllRIiwidXNlcklkIjoiYW16bjEuYXNrLmFjY291bnQuQUZTWkNSQkhCVE5JQ1lTNlg3STVTNFFITENTWkdHTVlITkJHSVlCS0hYR0pLQkpUSElUMjZYTlBDRlVZV0ZaWVJOSVdZUDU1RVFHVFQ3RjRLS0ZBS0RXS1NISU9aU0VHWlJLTUdINlZSN1kyRlBCSkxBREVJRVkyVEZLSFE3SVJGS0FHUkFXVzJJV0hQWkhRSDNYVFhZWE5UMkpaVFEzNU42NENKSlQ1UUNSRTNLRFFYWkZaVklGN0NMTEdCTFlXUllCUVpTN1FQVUpIQ0ZRIn19.RLOSgOWW8LcU4gTiTxieeJpV8WlMXVWDoUrD93vTgnB5NZBmWD9_9ePplz05jp8fJxDhkIscooG1SjZtWn11y0Y_Q13Bk4VMkvBnEapFPz6MxCqRVCSc-KBNjI0hb7qpHzGudap376A1-wWtaB_aVPN_zj-x6Vg512k2c7GSJNN_g9XxCnWlbH88o-AruDhzJTemzkIElav1oNVhCTgSc9fmdT95bxAaQtgkK4ojm29hfa1oghpFGowb59OuqBBspmGvHm7rhh2saeoZQDi61fcBf-Wxn0QJvjixv8mIcD74d3cCIq9louqbBhyjJKGLZZGgAiNfQnMbS-09v1Mfag"
 		},
 		"Viewport": {
 			"experiences": [
@@ -47,16 +47,16 @@
 	},
 	"request": {
 		"type": "IntentRequest",
-		"requestId": "amzn1.echo-api.request.ae944c1e-0ce1-4fd5-aa39-3d15ad43c8bf",
-		"timestamp": "2018-11-06T23:01:43Z",
+		"requestId": "amzn1.echo-api.request.f0d17a24-1d0b-4f46-901a-6bdae92ecde3",
+		"timestamp": "2018-11-06T23:58:49Z",
 		"locale": "en-US",
 		"intent": {
-			"name": "NextBusFromTime",
+			"name": "BusScheduleIntent",
 			"confirmationStatus": "NONE",
 			"slots": {
 				"BUS_ROUTE": {
 					"name": "BUS_ROUTE",
-					"value": "university terrace",
+					"value": "r.c.",
 					"resolutions": {
 						"resolutionsPerAuthority": [
 							{
@@ -67,8 +67,8 @@
 								"values": [
 									{
 										"value": {
-											"name": "University Terrace",
-											"id": "cato_park"
+											"name": "Waupelani Campus",
+											"id": "rc_route"
 										}
 									}
 								]
@@ -92,7 +92,13 @@
 									{
 										"value": {
 											"name": "Pattee Transit Center Eastbound",
-											"id": "Shortlidge_Rd_at_White_Building"
+											"id": "pattee_transit_center_eastbound"
+										}
+									},
+									{
+										"value": {
+											"name": "Beaver Ave at Schlow Library/CATA Office",
+											"id": "Beaver_Ave_at_Schlow_Library/CATA_Office"
 										}
 									}
 								]
