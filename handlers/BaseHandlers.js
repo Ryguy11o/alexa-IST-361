@@ -21,22 +21,6 @@ const LaunchRequestHandler = {
   }
 };
 
-const HelpIntentHandler = {
-  canHandle(handlerInput) {
-    return handlerInput.requestEnvelope.request.type === 'IntentRequest'
-        && handlerInput.requestEnvelope.request.intent.name === 'AMAZON.HelpIntent';
-  },
-  handle(handlerInput) {
-    const speechText = HELP_MESSAGE;
-
-    return handlerInput.responseBuilder
-      .speak(speechText)
-      .reprompt(HELP_REPROMPT)
-      .withSimpleCard(SKILL_NAME, speechText)
-      .getResponse();
-  }
-};
-
 const CancelAndStopIntentHandler = {
   canHandle(handlerInput) {
     return handlerInput.requestEnvelope.request.type === 'IntentRequest'
@@ -81,7 +65,6 @@ const ErrorHandler = {
 
 module.exports = {
   LaunchRequestHandler,
-  HelpIntentHandler,
   CancelAndStopIntentHandler,
   SessionEndedRequestHandler,
   ErrorHandler
