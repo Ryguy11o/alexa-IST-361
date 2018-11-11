@@ -1,28 +1,11 @@
 const axios = require('axios');
 const { BUS_ID_TO_NAME, STOP_ID_TO_NAME, SKILL_NAME } = require('../utilities/constants/constants');
+const moment = require('moment-timezone');
 
 
 function formatTime(unixTime) {
-  const date = new Date(unixTime);
-  let minutes = parseInt(date.getMinutes(), 10);
-  let hours = parseInt(date.getHours(), 10);
-  let AM_PM = '';
-
-  if (minutes < 10) {
-    minutes = '0' + minutes;
-  }
-
-  if (hours > 12) {
-    hours = hours - 12;
-    AM_PM = 'p.m.';
-  } else if (hours === 0) {
-    hours = 12;
-    AM_PM = 'a.m.';
-  } else {
-    AM_PM = 'a.m.';
-  }
-
-  return `${hours}:${minutes} ${AM_PM}`;
+  const date = moment(unixTime);
+  return date.tz('America/New_York').format('h:mm a');
 }
 
 const BusScheduleIntentHandler = {
