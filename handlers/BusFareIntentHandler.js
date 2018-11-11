@@ -8,18 +8,16 @@ const BusFareIntentHandler = {
   async handle(handlerInput) {
     let slotId = null;
     let busInfo = null;
-    if (!handlerInput.requestEnvelope.request.intent.slots.BUS_ROUTE.resolutions) {
-
-    } else {
+    if (handlerInput.requestEnvelope.request.intent.slots.BUS_ROUTE.resolutions) {
       slotId = handlerInput.requestEnvelope.request.intent.slots.BUS_ROUTE.resolutions.resolutionsPerAuthority[0].values[0].value.id;
       busInfo = BUS_ID_TO_NAME[slotId];
     }
 
     let speechText;
     if (slotId === null) {
-      speechText = `All CATA busses except for the Blue, White, Red, and Green campus busses cost two dollars per ride`;
+      speechText = 'All CATA busses except for the Blue, White, Red, and Green campus busses cost two dollars per ride';
     } else if ((slotId === 'blue_loop') || (slotId === 'white_loop') || (slotId === 'red_link') || (slotId === 'green_link')) {
-      speechText = `The Blue and White loops, along with the Red and Green links, do not require a bus fare`;
+      speechText = 'The Blue and White loops, along with the Red and Green links, do not require a bus fare';
     } else {
       speechText = `The bus fare for the ${busInfo.name} route is two dollars`;
     }
