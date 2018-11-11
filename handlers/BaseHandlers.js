@@ -1,8 +1,6 @@
 const {
   WELCOME_MESSAGE,
   SKILL_NAME,
-  HELP_MESSAGE,
-  HELP_REPROMPT,
   STOP_MESSAGE
 } = require('../utilities/constants/constants');
 
