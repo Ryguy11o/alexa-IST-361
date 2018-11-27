@@ -55,6 +55,12 @@ const BUS_ID_TO_NAME = {
   'hm_route': {'name': 'H.M. - Toftrees/Nittany Mall', 'routeId': 60}
 };
 
+const EVENT_TYPE_TO_NAME = {
+  'concert_event': {'name': 'Concert'},
+  'sport_event': {'name': 'Sporting Event'},
+  'family_event': {'name': 'Family Event'}
+};
+
 const STOP_ID_TO_NAME = {
   'college_avenue_at_allen_street': {'name': 'E. College Ave at S. Allen Street', 'stopId': 1},
   'Burrowes_Rd_at_Deike_Building': {'name': 'Burrowes Rd at Deike Building', 'stopId': 2},
@@ -879,6 +885,8 @@ const STOP_ID_TO_NAME = {
   '123_Rolling_Ridge_Dr': {'name': '123 Rolling Ridge Dr', 'stopId': 725},
   'University_Drive_at_Jordan_Center_Gate_A': {'name': 'University Drive at Jordan Center Gate A', 'stopId': 726}
 };
+
+
 
 module.exports = {
   DESCRIPTION_DATE,
