@@ -1,0 +1,108 @@
+{
+	"version": "1.0",
+	"session": {
+		"new": false,
+		"sessionId": "amzn1.echo-api.session.720659c1-2a8f-440f-b6c3-a6012c2c7bbc",
+		"application": {
+			"applicationId": "amzn1.ask.skill.7f38e6e1-9c0c-464a-b950-c07c5e174084"
+		},
+		"user": {
+			"userId": "amzn1.ask.account.AEG6RKGXA2EMQCBR47PILUSMSI77YOZFHXRK53AGA3JYVGCCWGJPMT2GE2ZYO7SIORNQZ6BE6QGFBSTCR2LL2XDUNNFUBGMJU2IRQFII3O2ETRXC5LRZCT7HEVQWD37WQ4MSBEGA3OTO5JQWSZC3EIC7KPLYJ4YMCNUIKMIGOPN7FPAQH4X5RS5S764GPXJY2MPU3BQUF6CU5RQ"
+		}
+	},
+	"context": {
+		"System": {
+			"application": {
+				"applicationId": "amzn1.ask.skill.7f38e6e1-9c0c-464a-b950-c07c5e174084"
+			},
+			"user": {
+				"userId": "amzn1.ask.account.AEG6RKGXA2EMQCBR47PILUSMSI77YOZFHXRK53AGA3JYVGCCWGJPMT2GE2ZYO7SIORNQZ6BE6QGFBSTCR2LL2XDUNNFUBGMJU2IRQFII3O2ETRXC5LRZCT7HEVQWD37WQ4MSBEGA3OTO5JQWSZC3EIC7KPLYJ4YMCNUIKMIGOPN7FPAQH4X5RS5S764GPXJY2MPU3BQUF6CU5RQ"
+			},
+			"device": {
+				"deviceId": "amzn1.ask.device.AFAWIRPGLMLPSCZWUE3BUJ7CKAXL52SI4TFB2PO5OJFQEYSCNFPGHEIOLRYPYSXIABXQBAIH2NO56GA6Z6D2QR4JOCDGPYSG544T7QCKXEQAW3V4HTXUZKFQWCZQ6JLQTA6JNOR46F3HZWPBLRHLGEB56ESPWKXCZTUR5GFZUSMMJEB2C3L4Q",
+				"supportedInterfaces": {}
+			},
+			"apiEndpoint": "https://api.amazonalexa.com",
+			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjdmMzhlNmUxLTljMGMtNDY0YS1iOTUwLWMwN2M1ZTE3NDA4NCIsImV4cCI6MTU0MzUyMzMxNCwiaWF0IjoxNTQzNTE5NzE0LCJuYmYiOjE1NDM1MTk3MTQsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUZBV0lSUEdMTUxQU0NaV1VFM0JVSjdDS0FYTDUyU0k0VEZCMlBPNU9KRlFFWVNDTkZQR0hFSU9MUllQWVNYSUFCWFFCQUlIMk5PNTZHQTZaNkQyUVI0Sk9DREdQWVNHNTQ0VDdRQ0tYRVFBVzNWNEhUWFVaS0ZRV0NaUTZKTFFUQTZKTk9SNDZGM0haV1BCTFJITEdFQjU2RVNQV0tYQ1pUVVI1R0ZaVVNNTUpFQjJDM0w0USIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFFRzZSS0dYQTJFTVFDQlI0N1BJTFVTTVNJNzdZT1pGSFhSSzUzQUdBM0pZVkdDQ1dHSlBNVDJHRTJaWU83U0lPUk5RWjZCRTZRR0ZCU1RDUjJMTDJYRFVOTkZVQkdNSlUySVJRRklJM08yRVRSWEM1TFJaQ1Q3SEVWUVdEMzdXUTRNU0JFR0EzT1RPNUpRV1NaQzNFSUM3S1BMWUo0WU1DTlVJS01JR09QTjdGUEFRSDRYNVJTNVM3NjRHUFhKWTJNUFUzQlFVRjZDVTVSUSJ9fQ.UvuWhw61UT1UG33z6FyZ0Ub5FYBEJ0XOF83bTopaUlTg_N6qJ2ZSHpLbEJXozqYoC7z5CJQZ-1Ce5Ilc8pJT24RlDDtxIDwDbnU4oA1lNPcvdb77GjOBMNTsoKbTaqBSe8uhcy17hyl1eak7DafapNyRVxRB3PCoXY0hlWsuA1C8eYx7GySHfb-ebuo5vHXDi13sZZHE9ZX_6QxcVWRjQ1tcsqySYil9ykiF0SB9IvFptUWm7I4ab6LgZifRk7EwfMwff-WdH99cXpV_ZlpkCN1X1aEijEasNV82dz1ttYYqOfNLUec15Cvmp3UmnNQomE1hOaSM00pFV0CODcI-ZQ"
+		},
+		"Viewport": {
+			"experiences": [
+				{
+					"arcMinuteWidth": 246,
+					"arcMinuteHeight": 144,
+					"canRotate": false,
+					"canResize": false
+				}
+			],
+			"shape": "RECTANGLE",
+			"pixelWidth": 1024,
+			"pixelHeight": 600,
+			"dpi": 160,
+			"currentPixelWidth": 1024,
+			"currentPixelHeight": 600,
+			"touch": [
+				"SINGLE"
+			]
+		}
+	},
+	"request": {
+		"type": "IntentRequest",
+		"requestId": "amzn1.echo-api.request.75b76671-10f1-4628-8d7b-3c723491f4ce",
+		"timestamp": "2018-11-29T19:28:34Z",
+		"locale": "en-US",
+		"intent": {
+			"name": "DiningHallMenuIntentHandler",
+			"confirmationStatus": "NONE",
+			"slots": {
+				"MEAL_TYPE": {
+					"name": "MEAL_TYPE",
+					"value": "breakfast",
+					"resolutions": {
+						"resolutionsPerAuthority": [
+							{
+								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.7f38e6e1-9c0c-464a-b950-c07c5e174084.MEAL_TYPE",
+								"status": {
+									"code": "ER_SUCCESS_MATCH"
+								},
+								"values": [
+									{
+										"value": {
+											"name": "breakfast",
+											"id": "835ef6c0b2999746e9a5bdc11b3e528c"
+										}
+									}
+								]
+							}
+						]
+					},
+					"confirmationStatus": "NONE",
+					"source": "USER"
+				},
+				"LOCATION_NUM": {
+					"name": "LOCATION_NUM",
+					"value": "pollock commons",
+					"resolutions": {
+						"resolutionsPerAuthority": [
+							{
+								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.7f38e6e1-9c0c-464a-b950-c07c5e174084.LOCATION_NUM",
+								"status": {
+									"code": "ER_SUCCESS_MATCH"
+								},
+								"values": [
+									{
+										"value": {
+											"name": "pollock_dining_commons",
+											"id": "45792e256ca41658757ce2e9b9db6f42"
+										}
+									}
+								]
+							}
+						]
+					},
+					"confirmationStatus": "NONE",
+					"source": "USER"
+				}
+			}
+		}
+	}
+}
