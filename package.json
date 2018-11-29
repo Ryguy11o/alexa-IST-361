@@ -16,7 +16,8 @@
     "number-of-passengers": "lambda-local -l main.js -h handler -e ./utilities/events/number-of-passengers.json",
     "help_test": "lambda-local -l main.js -h handler -e ./utilities/events/help.json",
     "fare-no-slot-test": "lambda-local -l main.js -h handler -e ./utilities/events/bus-fare-no-slot.json",
-    "fare-with-slot-test": "lambda-local -l main.js -h handler -e ./utilities/events/bus-fare-with-slot.json"
+    "fare-with-slot-test": "lambda-local -l main.js -h handler -e ./utilities/events/bus-fare-with-slot.json",
+    "dining-hall-menu": "lambda-local -l main.js -h handler -e ./utilities/events/dining-hall-menu.json"
   },
   "repository": {
     "type": "git",

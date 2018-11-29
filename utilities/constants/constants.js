@@ -17,6 +17,20 @@ const DESCRIPTION_DATE = {
   'thanksgiving_break': 'Sunday, November 18th through Saturday, November 24th'
 };
 
+const LOCATION_ID_TO_NAME = {
+  'east_food_district': {'name': 'East Food District', 'locationNum': 11, 'string':'East+Food+District'},
+  'pollock_dining_commons': {'name': 'Pollock Dining Commons', 'locationNum': 14, 'string':'Pollock+Dining+Commons+'},
+  'south_food_district': {'name': 'South Food District', 'locationNum': 13, 'string':'South+Food+District'},
+  'west_food_district': {'name': 'West Food District', 'locationNum': 16, 'string':'West+Food+District'},
+  'north_food_district': {'name': 'North Food District', 'locationNum': 17, 'string':'North+Food+District'}
+};
+
+const MEAL_TYPE = {
+  'breakfast': 'Breakfast',
+  'lunch': 'Lunch',
+  'dinner': 'Dinner'
+};
+
 const BUS_ID_TO_NAME = {
   'park_forest': {'name': 'A - Park Forest', 'routeId': 1},
   'boalsburg': {'name': 'B - Boalsburg', 'routeId': 4},
@@ -884,6 +898,8 @@ module.exports = {
   DESCRIPTION_DATE,
   STOP_ID_TO_NAME,
   BUS_ID_TO_NAME,
+  LOCATION_ID_TO_NAME,
+  MEAL_TYPE,
   APP_ID: 'amzn1.ask.skill.7f38e6e1-9c0c-464a-b950-c07c5e174084',
   WELCOME_MESSAGE: 'Welcome to Happy Valley Helper, you can ask me different questions about Penn State!',
   SKILL_NAME: 'Happy Valley Helper',
