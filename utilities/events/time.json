@@ -1,0 +1,114 @@
+{
+	"version": "1.0",
+	"session": {
+		"new": false,
+		"sessionId": "amzn1.echo-api.session.692d72fe-5296-4887-964e-229ddd88fba7",
+		"application": {
+			"applicationId": "amzn1.ask.skill.7f38e6e1-9c0c-464a-b950-c07c5e174084"
+		},
+		"user": {
+			"userId": "amzn1.ask.account.AFSZCRBHBTNICYS6X7I5S4QHLCSZGGMYHNBGIYBKHXGJKBJTHIT26XNPCFUYWFZYRNIWYP55EQGTT7F4KKFAKDWKSHIOZSEGZRKMGH6VR7Y2FPBJLADEIEY2TFKHQ7IRFKAGRAWW2IWHPZHQH3XTXYXNT2JZTQ35N64CJJT5QCRE3KDQXZFZVIF7CLLGBLYWRYBQZS7QPUJHCFQ"
+		}
+	},
+	"context": {
+		"System": {
+			"application": {
+				"applicationId": "amzn1.ask.skill.7f38e6e1-9c0c-464a-b950-c07c5e174084"
+			},
+			"user": {
+				"userId": "amzn1.ask.account.AFSZCRBHBTNICYS6X7I5S4QHLCSZGGMYHNBGIYBKHXGJKBJTHIT26XNPCFUYWFZYRNIWYP55EQGTT7F4KKFAKDWKSHIOZSEGZRKMGH6VR7Y2FPBJLADEIEY2TFKHQ7IRFKAGRAWW2IWHPZHQH3XTXYXNT2JZTQ35N64CJJT5QCRE3KDQXZFZVIF7CLLGBLYWRYBQZS7QPUJHCFQ"
+			},
+			"device": {
+				"deviceId": "amzn1.ask.device.AFZQFNAP6OIU7DIKZO63N3AGQDG2YA77THFUJYPTPPS3SXRF4XQJS64PYHSARW7AJJSVRGUBW23QCVUSSGKT3OE5SFCUQPQ4UEUTARZWBGZCFMOK35GCO6KIMGC6GALKPNTW4LXGXZ2FH2DZ52O2XYIPK2YQ",
+				"supportedInterfaces": {}
+			},
+			"apiEndpoint": "https://api.amazonalexa.com",
+			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjdmMzhlNmUxLTljMGMtNDY0YS1iOTUwLWMwN2M1ZTE3NDA4NCIsImV4cCI6MTU0MTU1MjMyOSwiaWF0IjoxNTQxNTQ4NzI5LCJuYmYiOjE1NDE1NDg3MjksInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUZaUUZOQVA2T0lVN0RJS1pPNjNOM0FHUURHMllBNzdUSEZVSllQVFBQUzNTWFJGNFhRSlM2NFBZSFNBUlc3QUpKU1ZSR1VCVzIzUUNWVVNTR0tUM09FNVNGQ1VRUFE0VUVVVEFSWldCR1pDRk1PSzM1R0NPNktJTUdDNkdBTEtQTlRXNExYR1haMkZIMkRaNTJPMlhZSVBLMllRIiwidXNlcklkIjoiYW16bjEuYXNrLmFjY291bnQuQUZTWkNSQkhCVE5JQ1lTNlg3STVTNFFITENTWkdHTVlITkJHSVlCS0hYR0pLQkpUSElUMjZYTlBDRlVZV0ZaWVJOSVdZUDU1RVFHVFQ3RjRLS0ZBS0RXS1NISU9aU0VHWlJLTUdINlZSN1kyRlBCSkxBREVJRVkyVEZLSFE3SVJGS0FHUkFXVzJJV0hQWkhRSDNYVFhZWE5UMkpaVFEzNU42NENKSlQ1UUNSRTNLRFFYWkZaVklGN0NMTEdCTFlXUllCUVpTN1FQVUpIQ0ZRIn19.RLOSgOWW8LcU4gTiTxieeJpV8WlMXVWDoUrD93vTgnB5NZBmWD9_9ePplz05jp8fJxDhkIscooG1SjZtWn11y0Y_Q13Bk4VMkvBnEapFPz6MxCqRVCSc-KBNjI0hb7qpHzGudap376A1-wWtaB_aVPN_zj-x6Vg512k2c7GSJNN_g9XxCnWlbH88o-AruDhzJTemzkIElav1oNVhCTgSc9fmdT95bxAaQtgkK4ojm29hfa1oghpFGowb59OuqBBspmGvHm7rhh2saeoZQDi61fcBf-Wxn0QJvjixv8mIcD74d3cCIq9louqbBhyjJKGLZZGgAiNfQnMbS-09v1Mfag"
+		},
+		"Viewport": {
+			"experiences": [
+				{
+					"arcMinuteWidth": 246,
+					"arcMinuteHeight": 144,
+					"canRotate": false,
+					"canResize": false
+				}
+			],
+			"shape": "RECTANGLE",
+			"pixelWidth": 1024,
+			"pixelHeight": 600,
+			"dpi": 160,
+			"currentPixelWidth": 1024,
+			"currentPixelHeight": 600,
+			"touch": [
+				"SINGLE"
+			]
+		}
+	},
+	"request": {
+		"type": "IntentRequest",
+		"requestId": "amzn1.echo-api.request.f0d17a24-1d0b-4f46-901a-6bdae92ecde3",
+		"timestamp": "2018-11-06T23:58:49Z",
+		"locale": "en-US",
+		"intent": {
+			"name": "BusScheduleIntent",
+			"confirmationStatus": "NONE",
+			"slots": {
+				"BUS_ROUTE": {
+					"name": "BUS_ROUTE",
+					"value": "r.c.",
+					"resolutions": {
+						"resolutionsPerAuthority": [
+							{
+								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.7f38e6e1-9c0c-464a-b950-c07c5e174084.BUS_ROUTE",
+								"status": {
+									"code": "ER_SUCCESS_MATCH"
+								},
+								"values": [
+									{
+										"value": {
+											"name": "Waupelani Campus",
+											"id": "waupelani"
+										}
+									}
+								]
+							}
+						]
+					},
+					"confirmationStatus": "NONE",
+					"source": "USER"
+				},
+				"STOP_ID": {
+					"name": "STOP_ID",
+					"value": "library",
+					"resolutions": {
+						"resolutionsPerAuthority": [
+							{
+								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.7f38e6e1-9c0c-464a-b950-c07c5e174084.STOP_ID",
+								"status": {
+									"code": "ER_SUCCESS_MATCH"
+								},
+								"values": [
+									{
+										"value": {
+											"name": "Pattee Transit Center Eastbound",
+											"id": "pattee_transit_center_eastbound"
+										}
+									},
+									{
+										"value": {
+											"name": "Beaver Ave at Schlow Library/CATA Office",
+											"id": "Beaver_Ave_at_Schlow_Library/CATA_Office"
+										}
+									}
+								]
+							}
+						]
+					},
+					"confirmationStatus": "NONE",
+					"source": "USER"
+				}
+			}
+		}
+	}
+}
