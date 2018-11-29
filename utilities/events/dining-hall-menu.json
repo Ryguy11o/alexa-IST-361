@@ -2,7 +2,7 @@
 	"version": "1.0",
 	"session": {
 		"new": false,
-		"sessionId": "amzn1.echo-api.session.720659c1-2a8f-440f-b6c3-a6012c2c7bbc",
+		"sessionId": "amzn1.echo-api.session.83ad8644-ac5c-4507-9303-3cd5f3e980bf",
 		"application": {
 			"applicationId": "amzn1.ask.skill.7f38e6e1-9c0c-464a-b950-c07c5e174084"
 		},
@@ -23,7 +23,7 @@
 				"supportedInterfaces": {}
 			},
 			"apiEndpoint": "https://api.amazonalexa.com",
-			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjdmMzhlNmUxLTljMGMtNDY0YS1iOTUwLWMwN2M1ZTE3NDA4NCIsImV4cCI6MTU0MzUyMzMxNCwiaWF0IjoxNTQzNTE5NzE0LCJuYmYiOjE1NDM1MTk3MTQsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUZBV0lSUEdMTUxQU0NaV1VFM0JVSjdDS0FYTDUyU0k0VEZCMlBPNU9KRlFFWVNDTkZQR0hFSU9MUllQWVNYSUFCWFFCQUlIMk5PNTZHQTZaNkQyUVI0Sk9DREdQWVNHNTQ0VDdRQ0tYRVFBVzNWNEhUWFVaS0ZRV0NaUTZKTFFUQTZKTk9SNDZGM0haV1BCTFJITEdFQjU2RVNQV0tYQ1pUVVI1R0ZaVVNNTUpFQjJDM0w0USIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFFRzZSS0dYQTJFTVFDQlI0N1BJTFVTTVNJNzdZT1pGSFhSSzUzQUdBM0pZVkdDQ1dHSlBNVDJHRTJaWU83U0lPUk5RWjZCRTZRR0ZCU1RDUjJMTDJYRFVOTkZVQkdNSlUySVJRRklJM08yRVRSWEM1TFJaQ1Q3SEVWUVdEMzdXUTRNU0JFR0EzT1RPNUpRV1NaQzNFSUM3S1BMWUo0WU1DTlVJS01JR09QTjdGUEFRSDRYNVJTNVM3NjRHUFhKWTJNUFUzQlFVRjZDVTVSUSJ9fQ.UvuWhw61UT1UG33z6FyZ0Ub5FYBEJ0XOF83bTopaUlTg_N6qJ2ZSHpLbEJXozqYoC7z5CJQZ-1Ce5Ilc8pJT24RlDDtxIDwDbnU4oA1lNPcvdb77GjOBMNTsoKbTaqBSe8uhcy17hyl1eak7DafapNyRVxRB3PCoXY0hlWsuA1C8eYx7GySHfb-ebuo5vHXDi13sZZHE9ZX_6QxcVWRjQ1tcsqySYil9ykiF0SB9IvFptUWm7I4ab6LgZifRk7EwfMwff-WdH99cXpV_ZlpkCN1X1aEijEasNV82dz1ttYYqOfNLUec15Cvmp3UmnNQomE1hOaSM00pFV0CODcI-ZQ"
+			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjdmMzhlNmUxLTljMGMtNDY0YS1iOTUwLWMwN2M1ZTE3NDA4NCIsImV4cCI6MTU0MzUyNTIxMSwiaWF0IjoxNTQzNTIxNjExLCJuYmYiOjE1NDM1MjE2MTEsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUZBV0lSUEdMTUxQU0NaV1VFM0JVSjdDS0FYTDUyU0k0VEZCMlBPNU9KRlFFWVNDTkZQR0hFSU9MUllQWVNYSUFCWFFCQUlIMk5PNTZHQTZaNkQyUVI0Sk9DREdQWVNHNTQ0VDdRQ0tYRVFBVzNWNEhUWFVaS0ZRV0NaUTZKTFFUQTZKTk9SNDZGM0haV1BCTFJITEdFQjU2RVNQV0tYQ1pUVVI1R0ZaVVNNTUpFQjJDM0w0USIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFFRzZSS0dYQTJFTVFDQlI0N1BJTFVTTVNJNzdZT1pGSFhSSzUzQUdBM0pZVkdDQ1dHSlBNVDJHRTJaWU83U0lPUk5RWjZCRTZRR0ZCU1RDUjJMTDJYRFVOTkZVQkdNSlUySVJRRklJM08yRVRSWEM1TFJaQ1Q3SEVWUVdEMzdXUTRNU0JFR0EzT1RPNUpRV1NaQzNFSUM3S1BMWUo0WU1DTlVJS01JR09QTjdGUEFRSDRYNVJTNVM3NjRHUFhKWTJNUFUzQlFVRjZDVTVSUSJ9fQ.Zlv4AuFYUFg_eok5yuBMovYfgyiLz_8DVXcYV4AMzwIgGA4YLPrPLVNWfppcyi3tBXyRlkN97gxH5Dxren7h6lPm5t9yXpZAUya2VlUkM31LYBsqLdqTTaFkqnvWGoOjKcXsU-PctrTM7OfnIbwgkQWzNXOifgHyzEr658IuqqyrxW6F95C9pV3mhegSouMtqwwX5V8JuB7gIGdhXGsks406mPAMJrQwQypfCBdmQx9qMoR4rB5ecst_2QzK8WG6Y-KLcGNhIK6r_42c24tsXQei4cu7y4rUMh8-jEMvV3NCAr7o1IbheeV_6MMsgOo0mKzks4D6ytpgvIrZXk0IFg"
 		},
 		"Viewport": {
 			"experiences": [
@@ -47,16 +47,16 @@
 	},
 	"request": {
 		"type": "IntentRequest",
-		"requestId": "amzn1.echo-api.request.75b76671-10f1-4628-8d7b-3c723491f4ce",
-		"timestamp": "2018-11-29T19:28:34Z",
+		"requestId": "amzn1.echo-api.request.b5b259fc-48df-4d3e-9fa9-8e1d6deda217",
+		"timestamp": "2018-11-29T20:00:11Z",
 		"locale": "en-US",
 		"intent": {
-			"name": "DiningHallMenuIntentHandler",
+			"name": "DiningHallMenuIntent",
 			"confirmationStatus": "NONE",
 			"slots": {
 				"MEAL_TYPE": {
 					"name": "MEAL_TYPE",
-					"value": "breakfast",
+					"value": "dinner",
 					"resolutions": {
 						"resolutionsPerAuthority": [
 							{
@@ -67,8 +67,8 @@
 								"values": [
 									{
 										"value": {
-											"name": "breakfast",
-											"id": "835ef6c0b2999746e9a5bdc11b3e528c"
+											"name": "dinner",
+											"id": "ad5acdfacefd7f31104b3d7c9cffad6f"
 										}
 									}
 								]
@@ -80,7 +80,7 @@
 				},
 				"LOCATION_NUM": {
 					"name": "LOCATION_NUM",
-					"value": "pollock commons",
+					"value": "east halls",
 					"resolutions": {
 						"resolutionsPerAuthority": [
 							{
@@ -91,8 +91,8 @@
 								"values": [
 									{
 										"value": {
-											"name": "pollock_dining_commons",
-											"id": "45792e256ca41658757ce2e9b9db6f42"
+											"name": "east_food_district",
+											"id": "19295af1879a782a3ff1be9bc65eb841"
 										}
 									}
 								]
