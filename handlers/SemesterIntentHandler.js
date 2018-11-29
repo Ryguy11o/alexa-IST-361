@@ -19,5 +19,4 @@ const SemesterIntentHandler = {
 
 module.exports = {
   SemesterIntentHandler
-
 };
