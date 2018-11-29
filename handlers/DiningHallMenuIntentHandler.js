@@ -13,12 +13,13 @@ const DiningHallMenuIntentHandler = {
   },
 
   async handle(handlerInput) {
-      const menuUrl = `http://menu.hfs.psu.edu/shortmenu.aspx?sName=Penn+State+Housing+and+Food+Services&locationNum=$`;
-      const mealType = handlerInput.requestEnvelope.request.intent.slots.MEAL_TYPE.resolutions.resolutionsPerAuthority[0].values[0].value.id;
+      const menuUrl = `http://menu.hfs.psu.edu/shortmenu.aspx?sName=Penn+State+Housing+and+Food+Services&locationNum=`;
+      const mealType = handlerInput.requestEnvelope.request.intent.slots.MEAL_TO_TYPE.resolutions.resolutionsPerAuthority[0].values[0].value.id;
       const diningHall = handlerInput.requestEnvelope.request.intent.slots.LOCATION_NUM.resolutions.resolutionsPerAuthority[0].values[0].value.id;
       const mealTypeSlot = MEAL_TYPE[mealType];
       const diningHallSlot = LOCATION_ID_TO_NAME[diningHall];
-      const getMenu = await axios.get(`${menuUrl}${diningHallLocationNum.locationNum}&locationName=${diningHallLocationNum.string}&naFlag=1`)
+      console.log(menuUrl);
+      const getMenu = await axios.get(`${menuUrl}${diningHallSlot.locationNum}&locationName=${diningHallSlot.string}&naFlag=1`).then(response => response.data);
       console.log('success');
       const listOfFoodItems = document.querySelectorAll("#menuDisplay > tbody > tr > td:nth-child(1) > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td > div");
 
@@ -30,4 +31,8 @@ const DiningHallMenuIntentHandler = {
     .withSimpleCard(SKILL_NAME, speechText)
     .getResponse();
   }
+};
+
+module.exports = {
+  DiningHallMenuIntentHandler
 };
