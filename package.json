@@ -17,7 +17,7 @@
     "help_test": "lambda-local -l main.js -h handler -e ./utilities/events/help.json",
     "fare-no-slot-test": "lambda-local -l main.js -h handler -e ./utilities/events/bus-fare-no-slot.json",
     "fare-with-slot-test": "lambda-local -l main.js -h handler -e ./utilities/events/bus-fare-with-slot.json",
-    "bjc-no-slot-test": "lambda-local -l main.js -h handler -e ./utilities/events/bjc-event-no-slot.json"
+    "bjc-no-slot-test": "lambda-local -l main.js -h handler -e ./utilities/events/bjc-event-no-slot.json -t 10"
   },
   "repository": {
     "type": "git",
