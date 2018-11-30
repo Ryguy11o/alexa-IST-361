@@ -24,20 +24,24 @@ const BJCEventIntentHandler = {
     const page = await browser.newPage();
 
     await page.goto(URL, {waitUntil: 'networkidle0'});
-    await page.addScriptTag({url: 'https://code.jquery.com/jquery-3.2.1.min.js'})
+    await page.addScriptTag({url: 'https://code.jquery.com/jquery-3.2.1.min.js'});
 
+    /* eslint-disable-next-line consistent-return */
     const result = await page.evaluate(() => {
-        try {
-            var data = [];
-            let title = $('div.views-row-1').find('div.views-field-title').find('a').text();
-            data.push({
-              'eventTitle' : title,
-            });
+      try {
+        var data = [];
+        /* eslint-disable-next-line no-undef */
+        let title = $('div.views-row-1').find('div.views-field-title').find('a').text();
+        data.push({
+          'eventTitle': title
+        });
 
-            return data; // Return our data array
-        } catch(err) {
-            reject(err.toString());
-        }
+        // Return array with titles of events
+        return data;
+      } catch (err) {
+        /* eslint-disable-next-line no-undef */
+        reject(err.toString());
+      }
     });
 
     // Close Browser
@@ -48,9 +52,8 @@ const BJCEventIntentHandler = {
 
     if (slotId === null) {
       speechText = `The next event at the BJC is ${eventTitle}`;
-      console.log('Speech If-Clause executes');
     } else {
-      speechText = `Something isn't working right`;
+      speechText = 'Something isn\'t working right';
     }
 
     return handlerInput.responseBuilder
