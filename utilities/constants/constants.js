@@ -53,7 +53,6 @@ const SPRING_SCHEDULE = {
   'final_exams': 'Monday through Friday of April 29th through May 3rd',
   'thanksgiving_break': 'There is no Thanksgiving break',
   'spring_break': 'Sunday through Saturday of March 3rd through 9th'
-
 };
 
 const MAYMESTER = {
@@ -993,9 +992,9 @@ module.exports = {
   HELP_MESSAGE: 'You can ask me questions about Penn State and the State College area! Currently I support questions about the current academic year, and questions about the CATA bus system.  Or you can say exit.  How may I help you?',
   HELP_REPROMPT: 'What can I help you with?',
   STOP_MESSAGE: 'Goodbye!',
-  FALL_SCHEDULE: 'It is the Fall 2018 semester.',
-  SPRING_SCHEDULE: 'It is the Spring 2019 semester.',
-  MAYMESTER: 'It is the 2019 Maymester',
-  SUMMER_SCHEDULE_FIRSTSECTION: 'It is the first six weeks of Summer session',
-  SUMMER_SCHEDULE_SECONDSECTION: 'It is the second six weks of Summer session'
+  FALL_SCHEDULE,
+  SPRING_SCHEDULE,
+  MAYMESTER,
+  SUMMER_SCHEDULE_FIRSTSECTION,
+  SUMMER_SCHEDULE_SECONDSECTION
 };
