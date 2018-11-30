@@ -14,20 +14,25 @@ const SemesterIntentHandler = {
     const springYear = 2019;
 
     let map;
-    if(semesterId === `fall_${fallYear}`){
+    if (semesterId === `fall_${fallYear}`) {
       map = FALL_SCHEDULE;
     } else if (semesterId === `spring_${springYear}`) {
       map = SPRING_SCHEDULE;
-    } else if (semesterId === `maymester_${springYear}`){
+    } else if (semesterId === `maymester_${springYear}`) {
       map = MAYMESTER;
-    } else if (semesterId === `summer1_${springYear}`){
+    } else if (semesterId === `summer1_${springYear}`) {
       map = SUMMER_SCHEDULE_FIRSTSECTION;
-    } else if (semesterId === `summer2_${springYear}`){
+    } else if (semesterId === `summer2_${springYear}`) {
       map = SUMMER_SCHEDULE_SECONDSECTION;
     }
 
     let speechText;
-    speechText = `${map[academicDescriptions]}`;
+    if (wordsSaidToAlexa === 'thanksgiving holiday' || ) {
+      speechText = `${map[academicDescriptions]}`;
+    } else if (wordsSaidToAlexa === ){
+      speechText = `${wordsSaidToAlexa} is on ${map[academicDescriptions]}`;
+    }
+
     return handlerInput.responseBuilder
       .speak(speechText)
       .withSimpleCard(SKILL_NAME, speechText)

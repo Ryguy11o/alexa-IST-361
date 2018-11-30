@@ -28,7 +28,7 @@ const FALL_SCHEDULE = {
   'withdrawal_deadline_ends': 'Friday, December 7th',
   'declare_minor_deadline': 'Friday, November 9th',
   'late_drop_deadline': 'Friday, November 9th',
-  'final_exam_conflict' : 'Sunday, October 14th',
+  'final_exam_conflict': 'Sunday, October 14th',
   'late_drop_begins': 'Sunday, August 26th',
   'late_registration_begins': 'Monday, August 27th',
   'final_exams': 'Monday through Friday of December 10th through 14th',
@@ -72,8 +72,8 @@ const MAYMESTER = {
   'late_registration_begins': 'Thursday, May 9th',
   'final_exams': 'Wednesday, June 5th',
   'thanksgiving_break': 'There isn\'t a Thanksgiving break during the Maymester.',
-  'spring_break' : 'There is no Spring break',
-  'memorial_day' : 'Monday, May 27th'
+  'spring_break': 'There is no Spring break',
+  'memorial_day': 'Monday, May 27th'
 
 };
 
@@ -115,8 +115,6 @@ const SUMMER_SCHEDULE_SECONDSECTION = {
   'thanksgiving_break': 'There isn\'t a Thanksgiving break during the Summer semesters.',
   'independence_holiday': 'Thursday, July 4th'
 };
-
-
 
 
 const BUS_ID_TO_NAME = {

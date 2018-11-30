@@ -2,7 +2,7 @@
 	"version": "1.0",
 	"session": {
 		"new": false,
-		"sessionId": "amzn1.echo-api.session.86ac0b3b-d170-489b-904e-22fed08c2b7d",
+		"sessionId": "amzn1.echo-api.session.acb0e02d-4b32-4c57-b933-bd8c6f272b41",
 		"application": {
 			"applicationId": "amzn1.ask.skill.7f38e6e1-9c0c-464a-b950-c07c5e174084"
 		},
@@ -23,7 +23,7 @@
 				"supportedInterfaces": {}
 			},
 			"apiEndpoint": "https://api.amazonalexa.com",
-			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjdmMzhlNmUxLTljMGMtNDY0YS1iOTUwLWMwN2M1ZTE3NDA4NCIsImV4cCI6MTU0MzU0ODc5MiwiaWF0IjoxNTQzNTQ1MTkyLCJuYmYiOjE1NDM1NDUxOTIsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUZBV0lSUEdMTUxQU0NaV1VFM0JVSjdDS0FYTDUyU0k0VEZCMlBPNU9KRlFFWVNDTkZQR0hFSU9MUllQWVNYSUFCWFFCQUlIMk5PNTZHQTZaNkQyUVI0Sk9DREdQWVNHNTQ0VDdRQ0tYRVFBVzNWNEhUWFVaS0ZRV0NaUTZKTFFUQTZKTk9SNDZGM0haV1BCTFJITEdFQjU2RVNQV0tYQ1pUVVI1R0ZaVVNNTUpFQjJDM0w0USIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFFRzZSS0dYQTJFTVFDQlI0N1BJTFVTTVNJNzdZT1pGSFhSSzUzQUdBM0pZVkdDQ1dHSlBNVDJHRTJaWU83U0lPUk5RWjZCRTZRR0ZCU1RDUjJMTDJYRFVOTkZVQkdNSlUySVJRRklJM08yRVRSWEM1TFJaQ1Q3SEVWUVdEMzdXUTRNU0JFR0EzT1RPNUpRV1NaQzNFSUM3S1BMWUo0WU1DTlVJS01JR09QTjdGUEFRSDRYNVJTNVM3NjRHUFhKWTJNUFUzQlFVRjZDVTVSUSJ9fQ.Zzs35xlqFUQTC8ZVZGRPPLZAzS_BT5vrvoqtPl8Q7EovCbLE6iOoelKrGb9PTuRBbR9sE2Nxoo_oPFoLSiguhCCRL2v9N-Kf5mapCD-2sChDWjcC3M3p8q9U15byL_yhxjAep5JqCCopTn3JS29s8SkX02y9iYHVZSrW_E8JUXsn-kewqXUV9ekMAO908vzeSBp61A-3pDn9LF4bvqh3VRkeUg46Z7VaI4pFS5F8aM5N_Uiy3D9577lV_2LAaDu9JSVII0FUpFzU3kff4p7rr7vDV5GQjPaXL5xNePy479jo_5Cnitfe-64fJyBXqYGoi2caFfQSVBQa9bIM3hjz_w"
+			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjdmMzhlNmUxLTljMGMtNDY0YS1iOTUwLWMwN2M1ZTE3NDA4NCIsImV4cCI6MTU0MzU1Njg5NywiaWF0IjoxNTQzNTUzMjk3LCJuYmYiOjE1NDM1NTMyOTcsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUZBV0lSUEdMTUxQU0NaV1VFM0JVSjdDS0FYTDUyU0k0VEZCMlBPNU9KRlFFWVNDTkZQR0hFSU9MUllQWVNYSUFCWFFCQUlIMk5PNTZHQTZaNkQyUVI0Sk9DREdQWVNHNTQ0VDdRQ0tYRVFBVzNWNEhUWFVaS0ZRV0NaUTZKTFFUQTZKTk9SNDZGM0haV1BCTFJITEdFQjU2RVNQV0tYQ1pUVVI1R0ZaVVNNTUpFQjJDM0w0USIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFFRzZSS0dYQTJFTVFDQlI0N1BJTFVTTVNJNzdZT1pGSFhSSzUzQUdBM0pZVkdDQ1dHSlBNVDJHRTJaWU83U0lPUk5RWjZCRTZRR0ZCU1RDUjJMTDJYRFVOTkZVQkdNSlUySVJRRklJM08yRVRSWEM1TFJaQ1Q3SEVWUVdEMzdXUTRNU0JFR0EzT1RPNUpRV1NaQzNFSUM3S1BMWUo0WU1DTlVJS01JR09QTjdGUEFRSDRYNVJTNVM3NjRHUFhKWTJNUFUzQlFVRjZDVTVSUSJ9fQ.kqgwU3Ndapgry0fUfzXW80TLwmH9uVvgCUJQLLkSDgo8Rib7mkTlCRayCTednsVUssgleaLHKY_aKXOLz7BjAvNPj282Yx9a0dxyvOkf2I1IxT2vy3BR71J6_wcKmkPzj-td6fUja2qgv0lEE6EkOIKqTBNKdHORtmuKwi3lhe40tOyemcMZp5ddvnHvu4wWywMN-zZGoLCG5QTzaPAVdzs1PQc8Z7sU_HNPEheNYYg2hxoTlDAZCWDAcu-KhnvI62s00XFTdzsQH0-14XtDF1-y96IgtDJEDX_sC6iu4RijhmpEh6iPs3mv4SBTlQ4SLNfx1TANN3tVUP0pTBoGDw"
 		},
 		"Viewport": {
 			"experiences": [
@@ -47,8 +47,8 @@
 	},
 	"request": {
 		"type": "IntentRequest",
-		"requestId": "amzn1.echo-api.request.76075ae7-7321-4d99-ad40-b1774e7dd4df",
-		"timestamp": "2018-11-30T02:33:12Z",
+		"requestId": "amzn1.echo-api.request.48a23ab8-6af3-4fbc-809d-28e0a538d213",
+		"timestamp": "2018-11-30T04:48:17Z",
 		"locale": "en-US",
 		"intent": {
 			"name": "SemesterIntent",
@@ -56,7 +56,7 @@
 			"slots": {
 				"SEMESTER": {
 					"name": "SEMESTER",
-					"value": "spring 2019",
+					"value": "maymester 2019",
 					"resolutions": {
 						"resolutionsPerAuthority": [
 							{
@@ -67,8 +67,8 @@
 								"values": [
 									{
 										"value": {
-											"name": "Spring 2019",
-											"id": "spring_2019"
+											"name": "Maymester 2019",
+											"id": "maymester_2019"
 										}
 									}
 								]
@@ -80,7 +80,7 @@
 				},
 				"ACADEMIC_DESCRIPTION": {
 					"name": "ACADEMIC_DESCRIPTION",
-					"value": "thanksgiving break",
+					"value": "classes",
 					"resolutions": {
 						"resolutionsPerAuthority": [
 							{
@@ -91,8 +91,20 @@
 								"values": [
 									{
 										"value": {
-											"name": "thanksgiving holiday",
-											"id": "thanksgiving_break"
+											"name": "classes end",
+											"id": "classes_end"
+										}
+									},
+									{
+										"value": {
+											"name": "classes begin",
+											"id": "classes_start"
+										}
+									},
+									{
+										"value": {
+											"name": "late drop deadline",
+											"id": "late_drop_deadline"
 										}
 									}
 								]
