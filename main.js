@@ -8,6 +8,7 @@ const { HelpIntentHandler } = require('./handlers/HelpIntentHandler');
 const { BusRiderNumberFinderIntentHandler } = require('./handlers/BusRiderNumberFinderIntentHandler');
 const { BusFareIntentHandler } = require('./handlers/BusFareIntentHandler');
 const { BusScheduleIntentHandler } =  require('./handlers/BusScheduleIntentHandler');
+const { BJCEventIntentHandler } = require('./handlers/BJCEventIntentHandler');
 const { UpcomingGameIntentHandler } = require('./handlers/sportsinfo');
 const { NextHomeGameIntentHandler } = require('./handlers/NextHomeGameIntentHandler');
 
@@ -22,6 +23,7 @@ exports.handler = Alexa.SkillBuilders.custom()
   .addRequestHandlers(
     LaunchRequestHandler,
     GetNewFactIntentHandler,
+    BJCEventIntentHandler,
     BusFinderIntentHandler,
     BusStopDepartureFinderIntentHandler,
     BusRiderNumberFinderIntentHandler,
