@@ -1,5 +1,6 @@
 const { SKILL_NAME } = require('../utilities/constants/constants');
-const puppeteer = require('puppeteer');
+const rp = require('request-promise');
+const cheerio = require('cheerio');
 
 const BJCEventIntentHandler = {
   canHandle(handlerInput) {
@@ -15,43 +16,33 @@ const BJCEventIntentHandler = {
     // }
 
     let speechText;
-    let eventTitle;
-
-    const URL = 'https://bjc.psu.edu/events-list';
-
-    // Launch Browser
-    const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox', '--disable-setuid-sandbox'] });
-    const page = await browser.newPage();
-
-    await page.goto(URL, {waitUntil: 'networkidle0'});
-    await page.addScriptTag({url: 'https://code.jquery.com/jquery-3.2.1.min.js'});
-
-    /* eslint-disable-next-line consistent-return */
-    const result = await page.evaluate(() => {
-      try {
-        var data = [];
-        /* eslint-disable-next-line no-undef */
-        let title = $('div.views-row-1').find('div.views-field-title').find('a').text();
-        data.push({
-          'eventTitle': title
-        });
-
-        // Return array with titles of events
-        return data;
-      } catch (err) {
-        /* eslint-disable-next-line no-undef */
-        reject(err.toString());
+    let event;
+    // let eventTitle = await request-promise;
+    const options = {
+      uri: `https://bjc.psu.edu/events-list`,
+      transform: function (body) {
+        return cheerio.load(body);
       }
-    });
+    };
 
-    // Close Browser
-    await browser.close();
 
-    eventTitle = result[0].eventTitle;
+    rp(options)
+      .then(function ($) {
+
+        event = $('div.views-row-1').find('div.views-field-title').find('a').text();
+
+        return event;
+        console.log(title);
+      })
+      .catch(function (err) {
+
+      });
+
+    await rp(options);
 
 
     if (slotId === null) {
-      speechText = `The next event at the BJC is ${eventTitle}`;
+      speechText = `The next event at the BJC is ${event}`;
     } else {
       speechText = 'Something isn\'t working right';
     }
