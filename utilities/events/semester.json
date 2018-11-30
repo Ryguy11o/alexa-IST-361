@@ -23,7 +23,7 @@
 				"supportedInterfaces": {}
 			},
 			"apiEndpoint": "https://api.amazonalexa.com",
-			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjdmMzhlNmUxLTljMGMtNDY0YS1iOTUwLWMwN2M1ZTE3NDA4NCIsImV4cCI6MTU0MzU0ODQ0MCwiaWF0IjoxNTQzNTQ0ODQwLCJuYmYiOjE1NDM1NDQ4NDAsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUZBV0lSUEdMTUxQU0NaV1VFM0JVSjdDS0FYTDUyU0k0VEZCMlBPNU9KRlFFWVNDTkZQR0hFSU9MUllQWVNYSUFCWFFCQUlIMk5PNTZHQTZaNkQyUVI0Sk9DREdQWVNHNTQ0VDdRQ0tYRVFBVzNWNEhUWFVaS0ZRV0NaUTZKTFFUQTZKTk9SNDZGM0haV1BCTFJITEdFQjU2RVNQV0tYQ1pUVVI1R0ZaVVNNTUpFQjJDM0w0USIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFFRzZSS0dYQTJFTVFDQlI0N1BJTFVTTVNJNzdZT1pGSFhSSzUzQUdBM0pZVkdDQ1dHSlBNVDJHRTJaWU83U0lPUk5RWjZCRTZRR0ZCU1RDUjJMTDJYRFVOTkZVQkdNSlUySVJRRklJM08yRVRSWEM1TFJaQ1Q3SEVWUVdEMzdXUTRNU0JFR0EzT1RPNUpRV1NaQzNFSUM3S1BMWUo0WU1DTlVJS01JR09QTjdGUEFRSDRYNVJTNVM3NjRHUFhKWTJNUFUzQlFVRjZDVTVSUSJ9fQ.QYO-CJzKg40F8bMqag85yNYfx44SU68sLmCS4MLkcZ381Nn94Dw6GJyn4Igo2TSuEvUBI7DZ8DkkhJ2G_BZwsZX7OXFexSacObynNXrDUKtKJm47MBG0UXF66NTZjHfRXh39QDTginWNrwEoLYfgbXBsPU7QpqUpsMdy2AoXj2ADshNBFMw8R6ncQd8WVSGSDms3GuRg6dR19glVWc7lDxh7vGmcwWXYy8x7PE44yLfZCXo_Xg4GvQREO2xblehMk_HCxTD4mT5GPOL_8zPRnHhxMaryG63UwbM2lvhaFI1guD1TpxltyutAvJUIaFPM6y_GfJLbHtb9IOmq77HIqA"
+			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjdmMzhlNmUxLTljMGMtNDY0YS1iOTUwLWMwN2M1ZTE3NDA4NCIsImV4cCI6MTU0MzU0ODc5MiwiaWF0IjoxNTQzNTQ1MTkyLCJuYmYiOjE1NDM1NDUxOTIsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUZBV0lSUEdMTUxQU0NaV1VFM0JVSjdDS0FYTDUyU0k0VEZCMlBPNU9KRlFFWVNDTkZQR0hFSU9MUllQWVNYSUFCWFFCQUlIMk5PNTZHQTZaNkQyUVI0Sk9DREdQWVNHNTQ0VDdRQ0tYRVFBVzNWNEhUWFVaS0ZRV0NaUTZKTFFUQTZKTk9SNDZGM0haV1BCTFJITEdFQjU2RVNQV0tYQ1pUVVI1R0ZaVVNNTUpFQjJDM0w0USIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFFRzZSS0dYQTJFTVFDQlI0N1BJTFVTTVNJNzdZT1pGSFhSSzUzQUdBM0pZVkdDQ1dHSlBNVDJHRTJaWU83U0lPUk5RWjZCRTZRR0ZCU1RDUjJMTDJYRFVOTkZVQkdNSlUySVJRRklJM08yRVRSWEM1TFJaQ1Q3SEVWUVdEMzdXUTRNU0JFR0EzT1RPNUpRV1NaQzNFSUM3S1BMWUo0WU1DTlVJS01JR09QTjdGUEFRSDRYNVJTNVM3NjRHUFhKWTJNUFUzQlFVRjZDVTVSUSJ9fQ.Zzs35xlqFUQTC8ZVZGRPPLZAzS_BT5vrvoqtPl8Q7EovCbLE6iOoelKrGb9PTuRBbR9sE2Nxoo_oPFoLSiguhCCRL2v9N-Kf5mapCD-2sChDWjcC3M3p8q9U15byL_yhxjAep5JqCCopTn3JS29s8SkX02y9iYHVZSrW_E8JUXsn-kewqXUV9ekMAO908vzeSBp61A-3pDn9LF4bvqh3VRkeUg46Z7VaI4pFS5F8aM5N_Uiy3D9577lV_2LAaDu9JSVII0FUpFzU3kff4p7rr7vDV5GQjPaXL5xNePy479jo_5Cnitfe-64fJyBXqYGoi2caFfQSVBQa9bIM3hjz_w"
 		},
 		"Viewport": {
 			"experiences": [
@@ -47,8 +47,8 @@
 	},
 	"request": {
 		"type": "IntentRequest",
-		"requestId": "amzn1.echo-api.request.4a91adbb-870f-4812-a78b-d2e25a268011",
-		"timestamp": "2018-11-30T02:27:20Z",
+		"requestId": "amzn1.echo-api.request.76075ae7-7321-4d99-ad40-b1774e7dd4df",
+		"timestamp": "2018-11-30T02:33:12Z",
 		"locale": "en-US",
 		"intent": {
 			"name": "SemesterIntent",
@@ -56,7 +56,7 @@
 			"slots": {
 				"SEMESTER": {
 					"name": "SEMESTER",
-					"value": "maymester 2019",
+					"value": "spring 2019",
 					"resolutions": {
 						"resolutionsPerAuthority": [
 							{
@@ -67,8 +67,8 @@
 								"values": [
 									{
 										"value": {
-											"name": "Maymester 2019",
-											"id": "maymester_2019"
+											"name": "Spring 2019",
+											"id": "spring_2019"
 										}
 									}
 								]
@@ -80,7 +80,7 @@
 				},
 				"ACADEMIC_DESCRIPTION": {
 					"name": "ACADEMIC_DESCRIPTION",
-					"value": "classes begin",
+					"value": "thanksgiving break",
 					"resolutions": {
 						"resolutionsPerAuthority": [
 							{
@@ -91,8 +91,8 @@
 								"values": [
 									{
 										"value": {
-											"name": "classes begin",
-											"id": "classes_start"
+											"name": "thanksgiving holiday",
+											"id": "thanksgiving_break"
 										}
 									}
 								]
