@@ -15,9 +15,11 @@
     "businfo_test": "lambda-local -l main.js -h handler -e ./utilities/events/bus-info.json",
     "number-of-passengers": "lambda-local -l main.js -h handler -e ./utilities/events/number-of-passengers.json",
     "help_test": "lambda-local -l main.js -h handler -e ./utilities/events/help.json",
-    "fare-no-slot-test": "lambda-local -l main.js -h handler -e ./utilities/events/bus-fare-no-slot.json",
-    "fare-with-slot-test": "lambda-local -l main.js -h handler -e ./utilities/events/bus-fare-with-slot.json",
-    "bjc-no-slot-test": "lambda-local -l main.js -h handler -e ./utilities/events/bjc-event-no-slot.json -t 10"
+    "bjc-no-slot-test": "lambda-local -l main.js -h handler -e ./utilities/events/bjc-event-no-slot.json -t 10",
+    "fare_no_slot_test": "lambda-local -l main.js -h handler -e ./utilities/events/bus-fare-no-slot.json",
+    "fare_with_slot_test": "lambda-local -l main.js -h handler -e ./utilities/events/bus-fare-with-slot.json",
+    "upcoming_sport": "lambda-local -l main.js -h handler -e ./utilities/events/upcomingGame.json",
+    "home_game": "lambda-local -l main.js -h handler -e ./utilities/events/homeGame.json"
   },
   "repository": {
     "type": "git",
@@ -41,7 +43,8 @@
     "npm": "^6.4.1",
     "puppeteer": "^1.10.0",
     "request": "^2.88.0",
-    "request-promise": "^4.2.2"
+    "request-promise": "^4.2.2",
+    "rss-parser": "^3.5.4"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
