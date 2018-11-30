@@ -51,7 +51,7 @@ const SPRING_SCHEDULE = {
   'late_drop_begins': 'Sunday, January 13th',
   'late_registration_begins': 'Monday, January 14th',
   'final_exams': 'Monday through Friday of April 29th through May 3rd',
-  'thanksgiving_break': 'There is no Thanksgiving break',
+  'thanksgiving_break': 'There isn\'t a Thanksgiving break during the Spring semester.',
   'spring_break': 'Sunday through Saturday of March 3rd through 9th'
 };
 
@@ -71,7 +71,7 @@ const MAYMESTER = {
   'late_drop_begins': 'Wednesday, May 8th at 11:59 p.m. Eastern Time',
   'late_registration_begins': 'Thursday, May 9th',
   'final_exams': 'Wednesday, June 5th',
-  'thanksgiving_break': 'There is no Thanksgiving break',
+  'thanksgiving_break': 'There isn\'t a Thanksgiving break during the Maymester.',
   'spring_break' : 'There is no Spring break',
   'memorial_day' : 'Monday, May 27th'
 
@@ -93,7 +93,7 @@ const SUMMER_SCHEDULE_FIRSTSECTION = {
   'late_drop_begins': 'Wednesday, May 15th',
   'late_registration_begins': 'Thursday, May 16th',
   'final_exams': 'Monday, June 24th',
-  'thanksgiving_break': 'There is no Thanksgiving break'
+  'thanksgiving_break': 'There isn\'t a Thanksgiving break during the Summer semesters.'
 };
 
 const SUMMER_SCHEDULE_SECONDSECTION = {
@@ -112,7 +112,7 @@ const SUMMER_SCHEDULE_SECONDSECTION = {
   'late_drop_begins': 'Friday, June 28th',
   'late_registration_begins': 'Saturday, June 29th',
   'final_exams': 'Friday August 9th',
-  'thanksgiving_break': 'There is no Thanksgiving break',
+  'thanksgiving_break': 'There isn\'t a Thanksgiving break during the Summer semesters.',
   'independence_holiday': 'Thursday, July 4th'
 };
 
