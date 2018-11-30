@@ -26,10 +26,6 @@ const BJCEventIntentHandler = {
     await page.goto(URL, {waitUntil: 'networkidle0'});
     await page.addScriptTag({url: 'https://code.jquery.com/jquery-3.2.1.min.js'})
 
-    console.log('Page Launched');
-
-    await page.screenshot({path: 'myscreenshot.png', fullPage: true});
-
     const result = await page.evaluate(() => {
         try {
             var data = [];
