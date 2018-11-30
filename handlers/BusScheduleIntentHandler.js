@@ -2,7 +2,6 @@ const axios = require('axios');
 const { BUS_ID_TO_NAME, STOP_ID_TO_NAME, SKILL_NAME } = require('../utilities/constants/constants');
 const moment = require('moment-timezone');
 
-
 function formatTime(unixTime) {
   const date = moment(unixTime);
   return date.tz('America/New_York').format('h:mm a');
