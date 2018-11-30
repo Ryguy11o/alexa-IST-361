@@ -1,4 +1,3 @@
-/*eslint-disable*/
 const { SKILL_NAME } = require('../utilities/constants/constants');
 const moment = require('moment-timezone');
 let Parser = require('rss-parser');
@@ -40,20 +39,21 @@ async function getFullList() {
 
 async function getUpcomingSport(sport) {
   let fullList = await getFullList();
+  // eslint-disable-next-line consistent-return
   let foundItem = fullList.find(item => {
-    if(item.event){
+    if (item.event) {
       let title = item.event.title.replace(/\W/g, '');
-      let fixed_sport = sport.replace(/\W/g, '');
-      if(title.includes(fixed_sport) && item.event.startdate > moment().format()){
+      let fixedSport = sport.replace(/\W/g, '');
+      if (title.includes(fixedSport) && item.event.startdate > moment().format()) {
         return item;
       }
     }
   });
 
   let response = '';
-  if(foundItem){
-    if(foundItem.event.title.includes('vs')){
-      response = `${foundItem.event.title} at ${foundItem.event.location}`
+  if (foundItem) {
+    if (foundItem.event.title.includes('vs')) {
+      response = `${foundItem.event.title} at ${foundItem.event.location}`;
     } else {
       response = `${foundItem.event.title}`;
     }
