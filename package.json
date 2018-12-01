@@ -35,13 +35,9 @@
     "ask-sdk": "^2.1.0",
     "axios": "^0.18.0",
     "cheerio": "^1.0.0-rc.2",
-    "express": "^4.16.4",
-    "jquery": "^3.3.1",
-    "jsdom": "^13.0.0",
     "lambda-local": "^1.5.1",
     "moment-timezone": "^0.5.23",
     "npm": "^6.4.1",
-    "puppeteer": "^1.10.0",
     "request": "^2.88.0",
     "request-promise": "^4.2.2",
     "rss-parser": "^3.5.4"

@@ -1,5 +1,41 @@
 const { SKILL_NAME } = require('../utilities/constants/constants');
-const puppeteer = require('puppeteer');
+const rp = require('request-promise');
+const cheerio = require('cheerio');
+
+async function getNextEvent() {
+  let event;
+  let date;
+  let answer;
+  const response = {};
+  const options = {
+    uri: 'https://bjc.psu.edu/events-list',
+    transform: function (body) {
+      return cheerio.load(body);
+    }
+  };
+
+  rp(options)
+    .then(function ($) {
+      event = $('div.views-row-1').find('div.views-field-title').find('a').text();
+      date = $('div.views-row-1').find('div.event-info').find('div.upcoming-events-date').text();
+      date = date.replace(/\r?\n|\r/g, '');
+    })
+    .catch(function (err) {
+      console.log(err);
+      answer = 'Sorry, there was an issue with this skill request!';
+    });
+
+  await rp(options);
+
+  if (!answer) {
+    response.speechAnswer = `The next event at the BJC is ${event} on <say-as interpret-as="date">${date}</say-as>`;
+    response.textAnswer = `The next event at the BJC is ${event} on ${date}`;
+  } else {
+    response.speechAnswer = answer;
+    response.textAnswer = answer;
+  }
+  return response;
+}
 
 const BJCEventIntentHandler = {
   canHandle(handlerInput) {
@@ -8,58 +44,11 @@ const BJCEventIntentHandler = {
   },
 
   async handle(handlerInput) {
-    let slotId = null;
-    // if (handlerInput.requestEnvelope.request.intent.slots.EVENT_TYPE.resolutions) {
-    //   slotId = handlerInput.requestEnvelope.request.intent.slots.EVENT_TYPE.resolutions.resolutionsPerAuthority[0].values[0].value.id;
-    //   eventType = EVENT_TYPE_TO_NAME[slotId];
-    // }
-
-    let speechText;
-    let eventTitle;
-
-    const URL = 'https://bjc.psu.edu/events-list';
-
-    // Launch Browser
-    const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox', '--disable-setuid-sandbox'] });
-    const page = await browser.newPage();
-
-    await page.goto(URL, {waitUntil: 'networkidle0'});
-    await page.addScriptTag({url: 'https://code.jquery.com/jquery-3.2.1.min.js'});
-
-    /* eslint-disable-next-line consistent-return */
-    const result = await page.evaluate(() => {
-      try {
-        var data = [];
-        /* eslint-disable-next-line no-undef */
-        let title = $('div.views-row-1').find('div.views-field-title').find('a').text();
-        data.push({
-          'eventTitle': title
-        });
-
-        // Return array with titles of events
-        return data;
-      } catch (err) {
-        /* eslint-disable-next-line no-undef */
-        reject(err.toString());
-      }
-    });
-
-    // Close Browser
-    await browser.close();
-
-    eventTitle = result[0].eventTitle;
-
-
-    if (slotId === null) {
-      speechText = `The next event at the BJC is ${eventTitle}`;
-    } else {
-      speechText = 'Something isn\'t working right';
-    }
+    let response = await getNextEvent();
 
     return handlerInput.responseBuilder
-      .speak(speechText)
-      .reprompt(speechText)
-      .withSimpleCard(SKILL_NAME, speechText)
+      .speak(response.speechAnswer)
+      .withSimpleCard(SKILL_NAME, response.textAnswer)
       .getResponse();
   }
 };
