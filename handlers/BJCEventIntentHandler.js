@@ -4,7 +4,9 @@ const cheerio = require('cheerio');
 
 async function getNextEvent() {
   let event;
-
+  let date;
+  let answer;
+  const response = {};
   const options = {
     uri: 'https://bjc.psu.edu/events-list',
     transform: function (body) {
@@ -15,14 +17,24 @@ async function getNextEvent() {
   rp(options)
     .then(function ($) {
       event = $('div.views-row-1').find('div.views-field-title').find('a').text();
+      date = $('div.views-row-1').find('div.event-info').find('div.upcoming-events-date').text();
+      date = date.replace(/\r?\n|\r/g, '');
     })
     .catch(function (err) {
       console.log(err);
+      answer = 'Sorry, there was an issue with this skill request!';
     });
 
   await rp(options);
 
-  return event;
+  if (!answer) {
+    response.speechAnswer = `The next event at the BJC is ${event} on <say-as interpret-as="date">${date}</say-as>`;
+    response.textAnswer = `The next event at the BJC is ${event} on ${date}`;
+  } else {
+    response.speechAnswer = answer;
+    response.textAnswer = answer;
+  }
+  return response;
 }
 
 const BJCEventIntentHandler = {
@@ -32,21 +44,11 @@ const BJCEventIntentHandler = {
   },
 
   async handle(handlerInput) {
-    let slotId = null;
-
-    let speechText;
-    let eventTitle = await getNextEvent();
-
-    if (slotId === null) {
-      speechText = `The next event at the BJC is ${eventTitle}`;
-    } else {
-      speechText = 'Something isn\'t working right';
-    }
+    let response = await getNextEvent();
 
     return handlerInput.responseBuilder
-      .speak(speechText)
-      .reprompt(speechText)
-      .withSimpleCard(SKILL_NAME, speechText)
+      .speak(response.speechAnswer)
+      .withSimpleCard(SKILL_NAME, response.textAnswer)
       .getResponse();
   }
 };
