@@ -27,10 +27,10 @@ const SemesterIntentHandler = {
     }
 
     let speechText;
-    if (wordsSaidToAlexa === 'thanksgiving holiday' || ) {
+    if (wordsSaidToAlexa === 'thanksgiving holiday') {
       speechText = `${map[academicDescriptions]}`;
-    } else if (wordsSaidToAlexa === ){
-      speechText = `${wordsSaidToAlexa} is on ${map[academicDescriptions]}`;
+    } else {
+      speechText = `${wordsSaidToAlexa} on ${map[academicDescriptions]}`;
     }
 
     return handlerInput.responseBuilder
