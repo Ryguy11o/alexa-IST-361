@@ -38,8 +38,6 @@
     "lambda-local": "^1.5.1",
     "moment-timezone": "^0.5.23",
     "npm": "^6.4.1",
-    "request": "^2.88.0",
-    "request-promise": "^4.2.2",
     "rss-parser": "^3.5.4"
   },
   "devDependencies": {

@@ -1,5 +1,5 @@
 const { SKILL_NAME } = require('../utilities/constants/constants');
-const rp = require('request-promise');
+const axios = require('axios');
 const cheerio = require('cheerio');
 
 async function getNextEvent() {
@@ -7,25 +7,17 @@ async function getNextEvent() {
   let date;
   let answer;
   const response = {};
-  const options = {
-    uri: 'https://bjc.psu.edu/events-list',
-    transform: function (body) {
-      return cheerio.load(body);
-    }
-  };
 
-  rp(options)
-    .then(function ($) {
+  await axios.get('https://bjc.psu.edu/events-list')
+    .then(res => {
+      let $ = cheerio.load(res.data);
       event = $('div.views-row-1').find('div.views-field-title').find('a').text();
       date = $('div.views-row-1').find('div.event-info').find('div.upcoming-events-date').text();
       date = date.replace(/\r?\n|\r/g, '');
     })
-    .catch(function (err) {
-      console.log(err);
+    .catch(() => {
       answer = 'Sorry, there was an issue with this skill request!';
     });
-
-  await rp(options);
 
   if (!answer) {
     response.speechAnswer = `The next event at the BJC is ${event} on <say-as interpret-as="date">${date}</say-as>`;
