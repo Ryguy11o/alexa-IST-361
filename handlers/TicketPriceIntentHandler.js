@@ -13,14 +13,18 @@ const TicketPriceIntentHandler = {
   handle(handlerInput) {
     let speechText;
 
-    let sport = handlerInput.requestEnvelope.request.intent.slots.SPORT_EVENT.resolutions.resolutionsPerAuthority[0].values[0].value.id;
-    let sportText = SPORT_TYPE[sport];
+    // let sport = handlerInput.requestEnvelope.request.intent.slots.SPORT_EVENT.resolutions.resolutionsPerAuthority[0].values[0].value.id;
+    let eventType = handlerInput.requestEnvelope.request.intent.slots.SPORT_EVENT.value;
+    console.log(eventType);
+    // let sportText = SPORT_TYPE[sport];
 
-    if (sport === SPORT_TYPE_FREE) {
-      speechText = `All games for ${sportText.name} are free to the public`;
-    } else {
-      `Ticket information for ${sportText.name} can be found online through TicketMaster`;
-    }
+    speechText = `${eventType} games are free!`;
+
+    // if (SPORT_TYPE_FREE.includes(eventType)) {
+    //   speechText = `All games for ${eventType} are free to the public`;
+    // } else {
+    //   `Ticket information for ${eventType} can be found online through TicketMaster`;
+    // }
 
     return handlerInput.responseBuilder
       .speak(speechText)
