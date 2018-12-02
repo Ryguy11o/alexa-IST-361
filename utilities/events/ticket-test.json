@@ -1,0 +1,96 @@
+{
+	"version": "1.0",
+	"session": {
+		"new": false,
+		"sessionId": "amzn1.echo-api.session.caf9c54f-a704-4a54-90eb-8e46d4263f20",
+		"application": {
+			"applicationId": "amzn1.ask.skill.7f38e6e1-9c0c-464a-b950-c07c5e174084"
+		},
+		"user": {
+			"userId": "amzn1.ask.account.AGYWCEA36BPDKARHPYNOYE242ETWH5RTXXBZZPYDAPC7BOU5V66ODXP75PRWU3QFVJNKWCRWKAYOIN4OGDPGFI4CPJKH2JZPROKVQWYT22X763P4V6OSWM7F5CKWXUPUJS7FAEQNN3BCIJGYBWJ2ZQBRF5XX7PNHLGRL5RNA7UO7YMYOJ5N6LITI4CTMFRX647VXO2XFFUS6QTY"
+		}
+	},
+	"context": {
+		"System": {
+			"application": {
+				"applicationId": "amzn1.ask.skill.7f38e6e1-9c0c-464a-b950-c07c5e174084"
+			},
+			"user": {
+				"userId": "amzn1.ask.account.AGYWCEA36BPDKARHPYNOYE242ETWH5RTXXBZZPYDAPC7BOU5V66ODXP75PRWU3QFVJNKWCRWKAYOIN4OGDPGFI4CPJKH2JZPROKVQWYT22X763P4V6OSWM7F5CKWXUPUJS7FAEQNN3BCIJGYBWJ2ZQBRF5XX7PNHLGRL5RNA7UO7YMYOJ5N6LITI4CTMFRX647VXO2XFFUS6QTY"
+			},
+			"device": {
+				"deviceId": "amzn1.ask.device.AFRTOA6M7Y2FW6E4SA2JWCE7RYOLHFQATDCJG3BB2TDQPLCAVLXPIQ4Y3MJV4CFNHQGBFI4X6Z3TGRMDJYCAU5YMASJDK7ZZKGYRNBTGR2QLAWUY33EEBUSTBZUVYBRTYDBGNO4UTJ3ZJUDHMSPWS6LR2ZBS423MNTTSQQ2UWC2ZV3BTUJWAQ",
+				"supportedInterfaces": {}
+			},
+			"apiEndpoint": "https://api.amazonalexa.com",
+			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjdmMzhlNmUxLTljMGMtNDY0YS1iOTUwLWMwN2M1ZTE3NDA4NCIsImV4cCI6MTU0Mzc5NDk5MSwiaWF0IjoxNTQzNzkxMzkxLCJuYmYiOjE1NDM3OTEzOTEsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUZSVE9BNk03WTJGVzZFNFNBMkpXQ0U3UllPTEhGUUFURENKRzNCQjJURFFQTENBVkxYUElRNFkzTUpWNENGTkhRR0JGSTRYNlozVEdSTURKWUNBVTVZTUFTSkRLN1paS0dZUk5CVEdSMlFMQVdVWTMzRUVCVVNUQlpVVllCUlRZREJHTk80VVRKM1pKVURITVNQV1M2TFIyWkJTNDIzTU5UVFNRUTJVV0MyWlYzQlRVSldBUSIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFHWVdDRUEzNkJQREtBUkhQWU5PWUUyNDJFVFdINVJUWFhCWlpQWURBUEM3Qk9VNVY2Nk9EWFA3NVBSV1UzUUZWSk5LV0NSV0tBWU9JTjRPR0RQR0ZJNENQSktIMkpaUFJPS1ZRV1lUMjJYNzYzUDRWNk9TV003RjVDS1dYVVBVSlM3RkFFUU5OM0JDSUpHWUJXSjJaUUJSRjVYWDdQTkhMR1JMNVJOQTdVTzdZTVlPSjVONkxJVEk0Q1RNRlJYNjQ3VlhPMlhGRlVTNlFUWSJ9fQ.jcyGQBKjP5MpeCCJ3kwkbjWDZlGFDIw3ZsHBaqLqc82XnvrV55He7m-KQFJisOruHhngTll0-SAeKkBIxZMH0N0kLUQGRzlz5NZ0ZpTaud-3jzR1OVN3ANECzg_L3I2PJx67rvz16x-N1OlWpcFhmJhNpnV52GuKgiswelTK4r-aku05b5Xv81mdwTBdRt2Kch8uVZ75_SuaGNI-h2OLH4QdmAdi-ike1lEfUu408XPizOcNgDaGpo0qsf55xDYVPvGYAJfgaPkG6QTgZmCe4mgWrywcNx-c_P2zik0smrIzMd2235wL5EJ4NxfDA9ZX540hAanRfyOPIaxYrTRtkA"
+		},
+		"Viewport": {
+			"experiences": [
+				{
+					"arcMinuteWidth": 246,
+					"arcMinuteHeight": 144,
+					"canRotate": false,
+					"canResize": false
+				}
+			],
+			"shape": "RECTANGLE",
+			"pixelWidth": 1024,
+			"pixelHeight": 600,
+			"dpi": 160,
+			"currentPixelWidth": 1024,
+			"currentPixelHeight": 600,
+			"touch": [
+				"SINGLE"
+			]
+		}
+	},
+	"request": {
+		"type": "IntentRequest",
+		"requestId": "amzn1.echo-api.request.e497e774-aeac-418f-a431-69b20de8c2a2",
+		"timestamp": "2018-12-02T22:56:31Z",
+		"locale": "en-US",
+		"intent": {
+			"name": "TicketPriceIntent",
+			"confirmationStatus": "NONE",
+			"slots": {
+				"SPORT_EVENT": {
+					"name": "SPORT_EVENT",
+					"value": "swimming",
+					"resolutions": {
+						"resolutionsPerAuthority": [
+							{
+								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.7f38e6e1-9c0c-464a-b950-c07c5e174084.SPORTING_EVENT",
+								"status": {
+									"code": "ER_SUCCESS_MATCH"
+								},
+								"values": [
+									{
+										"value": {
+											"name": "Swimming",
+											"id": "swimming"
+										}
+									},
+									{
+										"value": {
+											"name": "Men's Swimming",
+											"id": "swimming_men"
+										}
+									},
+									{
+										"value": {
+											"name": "Women's Swimming",
+											"id": "swimming_women"
+										}
+									}
+								]
+							}
+						]
+					},
+					"confirmationStatus": "NONE",
+					"source": "USER"
+				}
+			}
+		}
+	}
+}
