@@ -112,7 +112,6 @@ const SUMMER_SCHEDULE_SECONDSECTION = {
 };
 
 
-
 const BUS_ID_TO_NAME = {
   'park_forest': {'name': 'A - Park Forest', 'routeId': 1},
   'boalsburg': {'name': 'B - Boalsburg', 'routeId': 4},
