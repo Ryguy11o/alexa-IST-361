@@ -35,6 +35,9 @@ async function getFullList() {
 }
 
 async function getResponse(foundItem, sport) {
+  if (foundItem.event.title.includes('&')) {
+    foundItem.event.title = foundItem.event.title.replace('&', 'and');
+  }
   const response = {};
   if (foundItem) {
     let title = foundItem.event.title;
@@ -55,8 +58,12 @@ async function getResponse(foundItem, sport) {
       response.cardText = foundItem.event.title;
     }
   } else {
-    response.speechText = `No events were found for ${sport} at this time`;
-    response.cardText = `No events were found for ${sport} at this time`;
+    let adjustedSport = sport;
+    if (sport.includes('&')) {
+      adjustedSport = sport.replace('&', 'and');
+    }
+    response.speechText = `No events were found for ${adjustedSport} at this time`;
+    response.cardText = `No events were found for ${adjustedSport} at this time`;
   }
   return response;
 }
