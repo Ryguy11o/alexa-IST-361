@@ -25,13 +25,9 @@ const SemesterIntentHandler = {
     } else if (semesterId === `summer2_${springYear}`) {
       map = SUMMER_SCHEDULE_SECONDSECTION;
     }
-
+    
     let speechText;
-    if (wordsSaidToAlexa === 'thanksgiving holiday') {
-      speechText = `${map[academicDescriptions]}`;
-    } else {
-      speechText = `${wordsSaidToAlexa} on ${map[academicDescriptions]}`;
-    }
+    speechText = map[academicDescriptions];
 
     return handlerInput.responseBuilder
       .speak(speechText)
