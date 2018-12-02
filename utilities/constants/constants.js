@@ -1,21 +1,117 @@
 const DESCRIPTION_DATE = {
-  'classes_start': 'Monday, August 20th',
-  'classes_end': 'Friday, December 7th',
-  'student_reg_deadline': 'Sunday, August 19th',
-  'drop_deadline': 'Saturday, August 25th',
-  'add_deadline': ' Sunday, August 26 at 11:59 p.m. Eastern Time',
-  'finals_week_ends': 'Friday, December 14',
-  'withdrawl_deadline_ends': 'Friday, December 7th',
-  'finals_week_begins': 'Monday, December 10th',
-  'withdrawal_deadline_ends': 'Friday, December 7th',
-  'declare_minor_deadline': 'Friday, November 9th',
-  'late_drop_deadline': 'Friday, November 9th',
-  'final_exam_conflict': 'Sunday, October 14th',
-  'late_drop_begins': 'Sunday, August 26th',
-  'late_registration_begins': 'Monday, August 27th',
-  'final_exams': 'Monday, December 10th through Friday, December 14th',
-  'thanksgiving_break': 'Sunday, November 18th through Saturday, November 24th'
+  'classes_start': 'Classes begin on Monday, August 20th',
+  'classes_end': 'Classes end on Friday, December 7th',
+  'student_reg_deadline': 'The student registration deadline is Sunday, August 19th',
+  'drop_deadline': 'The drop deadline is Saturday, August 25th',
+  'add_deadline': ' The add deadline is Sunday, August 26 at 11:59 p.m. Eastern Time',
+  'finals_week_ends': 'Finals week ends on Friday, December 14',
+  'finals_week_begins': 'Finals weeks begins on Monday, December 10th',
+  'withdrawal_deadline_ends': 'The withdrawal deadline is Friday, December 7th',
+  'declare_minor_deadline': 'The declare minor deadline is Friday, November 9th',
+  'late_drop_deadline': 'The late drop deadline is Friday, November 9th',
+  'final_exam_conflict': 'The last day to file an exam conflict is Sunday, October 14th',
+  'late_drop_begins': 'The late drop period begins on Sunday, August 26th',
+  'late_registration_begins': 'The late registration period begins on Monday, August 27th',
+  'final_exams': 'Final exams are Monday, December 10th through Friday, December 14th',
+  'thanksgiving_break': 'Thanksgiving break is Sunday, November 18th through Saturday, November 24th'
 };
+
+const FALL_SCHEDULE = {
+  'classes_start': 'Classes begin on Monday, August 20th',
+  'classes_end': 'Classes end on Friday, December 7th',
+  'student_reg_deadline': 'The student registration deadline is Sunday, August 19th',
+  'drop_deadline': 'The drop deadline is Saturday, August 25th',
+  'add_deadline': ' The add deadline is Sunday, August 26 at 11:59 p.m. Eastern Time',
+  'finals_week_ends': 'Finals week ends on Friday, December 14',
+  'finals_week_begins': 'Finals weeks begins on Monday, December 10th',
+  'withdrawal_deadline_ends': 'The withdrawal deadline is Friday, December 7th',
+  'declare_minor_deadline': 'The declare minor deadline is Friday, November 9th',
+  'late_drop_deadline': 'The late drop deadline is Friday, November 9th',
+  'final_exam_conflict': 'The last day to file an exam conflict is Sunday, October 14th',
+  'late_drop_begins': 'The late drop period begins on Sunday, August 26th',
+  'late_registration_begins': 'The late registration period begins on Monday, August 27th',
+  'final_exams': 'Final exams are Monday through Friday of December 10th through 14th',
+  'thanksgiving_break': 'Thanksgiving break is Sunday, November 18th through Saturday, November 24thh'
+};
+
+const SPRING_SCHEDULE = {
+  'classes_start': 'Classes begin on Monday, January 7th',
+  'classes_end': 'Classes end on Friday, April 26th',
+  'student_reg_deadline': 'The student registration deadline is Sunday, January 6th',
+  'drop_deadline': 'The drop deadline is Saturday, January 12th at 11:59 p.m. Eastern Time',
+  'add_deadline': 'The add deadline is Sunday, January 13th at 11:59 p.m. Eastern Time',
+  'finals_week_ends': 'Finals week ends on Friday, May 3rd',
+  'finals_week_begins': 'Finals weeks begins on Monday, April 29th',
+  'withdrawal_deadline_ends': 'The withdrawal deadline is Friday, April 26th at 5:00 p.m. Eastern Time',
+  'declare_minor_deadline': 'The declare minor deadline is Friday, April 5th',
+  'late_drop_deadline': 'The late drop deadline is Friday, April 5th at 11:59 p.m. Eastern Time',
+  'final_exam_conflict': 'The last day to file an exam conflict is Monday, February 11th',
+  'late_drop_begins': 'The late drop period begins on Sunday, January 13th',
+  'late_registration_begins': 'The late registration period begins on Monday, January 14th',
+  'final_exams': 'Final exams are Monday through Friday of April 29th through May 3rd',
+  'thanksgiving_break': 'There isn\'t a Thanksgiving break during the Spring semester.',
+  'spring_break': 'Spring break is March 3rd through 9th'
+};
+
+const MAYMESTER = {
+  'classes_start': 'Classes begin on Monday, May 6th',
+  'classes_end': 'Classes end on Monday, June 3rd',
+  'student_reg_deadline': 'The student registration deadline is Sunday, May 5th',
+  'drop_deadline': 'The drop deadline is Tuesday, May 7th at 11:59 p.m. Eastern Time',
+  'add_deadline': 'The add deadline is Wednesday, May 8th at 11:59 p.m. Eastern Time',
+  'finals_week_ends': 'Finals week ends on Wednesday, June 5th',
+  'finals_week_begins': 'Finals weeks begins on Wednesday, June 5th',
+  'withdrawal_deadline_ends': 'The withdrawal deadline is Monday, June 3rd at 5:00 p.m. Eastern Time',
+  'declare_minor_deadline': 'The declare minor deadline is Monday, July 29th',
+  'late_drop_deadline': 'The late drop deadline is Tuesday, May 28th at 11:59 p.m. Eastern Time',
+  'final_exam_conflict': 'There isn\'t conflict scheduling during this semester.',
+  'late_drop_begins': 'The late drop period begins on Wednesday, May 8th at 11:59 p.m. Eastern Time',
+  'late_registration_begins': 'The late registration period begins on Thursday, May 9th',
+  'final_exams': 'Final exams are Wednesday, June 5th',
+  'thanksgiving_break': 'There isn\'t a Thanksgiving break during the Maymester.',
+  'spring_break': 'Spring break was March 3rd through the 9th.',
+  'memorial_day': 'Memorial day is Monday, May 27th'
+
+};
+
+const SUMMER_SCHEDULE_FIRSTSECTION = {
+  'classes_start': 'Classes begin on Monday, May 13th',
+  'classes_end': 'Classes end on Friday, June 21st',
+  'student_reg_deadline': 'The student registration deadline is Sunday, May 12th',
+  'drop_deadline': 'The drop deadline is Wednesday, May 15th at 11:59 p.m. Eastern Time',
+  'add_deadline': 'The add deadline is Thursday, May 16th at 11:59 p.m. Eastern Time',
+  'finals_week_ends': 'Finals week ends on Monday, June 24th',
+  'finals_week_begins': 'Finals weeks begins on Monday, June 24th',
+  'withdrawal_deadline_ends': 'The withdrawal deadline is Friday June 21 at 5:00 p.m. Eastern Time',
+  'declare_minor_deadline': 'The declare minor deadline is Monday, July 29th',
+  'late_drop_deadline': 'The late drop deadline is Thursday, June 13th at 11:59 p.m. Eastern Time',
+  'final_exam_conflict': 'There isn\'t conflict scheduling during this semester.',
+  'late_drop_begins': 'The late drop period begins on Wednesday, May 15th',
+  'late_registration_begins': 'The late registration period begins on Thursday, May 16th',
+  'final_exams': 'Final exams are Monday, June 24th',
+  'thanksgiving_break': 'There isn\'t a Thanksgiving break during the Summer semesters.'
+};
+
+const SUMMER_SCHEDULE_SECONDSECTION = {
+  'classes_start': 'Classes begin on Wednesday, June 26th',
+  'classes_end': 'Classes end on Wednesday, August 7th',
+  'student_reg_deadline': 'The student registration deadline is Tuesday, June 25th',
+  'drop_deadline': 'The drop deadline is Friday, June 28th at 11:59 p.m. Eastern Time',
+  'add_deadline': 'The add deadline is Saturday, June 29th at 11:59 p.m. Eastern Time',
+  'finals_week_ends': 'Finals week ends on Friday, August 9th',
+  'finals_week_begins': 'Finals weeks begins on Friday, August 9th',
+  'withdrawal_deadline_ends': 'The withdrawal deadline is Wednesday, August 7th at 5:00 p.m. Eastern Time',
+  'declare_minor_deadline': 'The declare minor deadline is Monday, July 29th',
+  'late_drop_deadline': 'The late drop deadline is Monday, July 29th at 11:59 p.m. Eastern Time',
+  'final_exam_conflict': 'There isn\'t conflict scheduling during this semester.',
+  'late_drop_begins': 'The late drop period begins on Friday, June 28th',
+  'late_registration_begins': 'The late registration period begins on Saturday, June 29th',
+  'final_exams': 'Final exams are Friday August 9th',
+  'thanksgiving_break': 'There isn\'t a Thanksgiving break during the Summer semesters.',
+  'independence_holiday': 'Independence Holiday is Thursday, July 4th'
+};
+
+
 
 const BUS_ID_TO_NAME = {
   'park_forest': {'name': 'A - Park Forest', 'routeId': 1},
@@ -897,5 +993,9 @@ module.exports = {
   HELP_MESSAGE: 'You can ask me questions about Penn State and the State College area! Currently I support questions about the current academic year, and questions about the CATA bus system.  Or you can say exit.  How may I help you?',
   HELP_REPROMPT: 'What can I help you with?',
   STOP_MESSAGE: 'Goodbye!',
-  SEMESTER_YEAR: 'It is the Fall 2018 semester.'
+  FALL_SCHEDULE,
+  SPRING_SCHEDULE,
+  MAYMESTER,
+  SUMMER_SCHEDULE_FIRSTSECTION,
+  SUMMER_SCHEDULE_SECONDSECTION
 };
