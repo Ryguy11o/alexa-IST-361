@@ -112,7 +112,6 @@ const SUMMER_SCHEDULE_SECONDSECTION = {
 };
 
 
-
 const BUS_ID_TO_NAME = {
   'park_forest': {'name': 'A - Park Forest', 'routeId': 1},
   'boalsburg': {'name': 'B - Boalsburg', 'routeId': 4},
@@ -157,60 +156,48 @@ const BUS_ID_TO_NAME = {
 //   'family_event': {'name': 'Family Event'}
 // };
 
-const SPORT_TYPE_FREE = {
-  'cross_country' : 'Cross Country',
-  'field_hockey' : 'Field Hockey',
-  'soccer_men' : 'Men\'s Soccer',
-  'soccer_women' : 'Women\'s Soccer',
-  'soccer' : 'Soccer',
-  'fencing' : 'Fencing',
-  'swimming_women' : 'Women\'s Swimming',
-  'swimming_men' : 'Men\'s Swimming',
-  'swimming' : 'Swimming',
-  'volleyball_men' : 'Men\'s Volleyball'
-}
 
-const SPORT_TYPE = {
-  'rugby_women'	: {'name': 'Women\'s Rugby'},
-  'rugby_men'	: {'name': 'Men\'s Rugby'},
-  'cross_country'	: {'name': 'Cross Country'},
-  'softball'	: {'name': 'Softball'},
-  'field_hockey'	: {'name': 'Field Hockey'},
-  'baseball'	: {'name': 'Baseball'},
-  'soccer_women'	: {'name': 'Women\'s Soccer'},
-  'soccer_men'	: {'name': 'Men\'s Soccer'},
-  'soccer'	: {'name': 'Soccer'},
-  'basketball_women'	: {'name': 'Women\'s Basketball'},
-  'basketball_men'	: {'name': 'Men\'s Basketball'},
-  'ice_hockey_women'	: {'name': 'Women\'s Ice Hockey'},
-  'ice_hockey_men'	: {'name': 'Men\'s Ice Hockey'},
-  'swimming_women'	: {'name': 'Women\'s Swimming'},
-  'swimming_men'	: {'name': 'Men\'s Swimming'},
-  'volleyball_women'	: {'name': 'Women\'s Volleyball'},
-  'volleyball_men'	: {'name': 'Men\'s Volleyball'},
-  'gymnastics_women'	: {'name': 'Women\'s Gymnastics'},
-  'gymnastics_men'	: {'name': 'Men\'s Gymnastics'},
-  'tennis_women'	: {'name': 'Women\'s Tennis'},
-  'tennis_men'	: {'name': 'Men\'s Tennis'},
-  'lacrosse_men'	: {'name': 'Men\'s Lacrosse'},
-  'lacrosse_women'	: {'name': 'Women\'s Lacrosse'},
-  'golf_women'	: {'name': 'Women\'s Golf'},
-  'golf_men'	: {'name': 'Men\'s Golf'},
-  'wrestling_women'	: {'name': 'Women\'s Wrestling'},
-  'wrestling_men'	: {'name': 'Men\'s Wrestling'},
-  'ice_hockey'	: {'name': 'Ice Hockey'},
-  'swimming'	: {'name': 'Swimming'},
-  'volleyball'	: {'name': 'Volleyball'},
-  'gymnastics'	: {'name': 'Gymnastics'},
-  'tennis'	: {'name': 'Tennis'},
-  'lacrosse'	: {'name': 'Lacrosse'},
-  'golf'	: {'name': 'Golf'},
-  'wrestling' : {'name': 'Wrestling'},
-  'fencing'	: {'name': 'Fencing'},
-  'track_and_field'	: {'name': 'Track & Field'},
-  'basketball'	: {'name': 'Basketball'},
-  'football'	: {'name': 'Football'}
-}
+// const SPORT_TYPE = {
+//   'rugby_women': {'name': 'Women\'s Rugby'},
+//   'rugby_men': {'name': 'Men\'s Rugby'},
+//   'cross_country': {'name': 'Cross Country'},
+//   'softball': {'name': 'Softball'},
+//   'field_hockey': {'name': 'Field Hockey'},
+//   'baseball': {'name': 'Baseball'},
+//   'soccer_women': {'name': 'Women\'s Soccer'},
+//   'soccer_men': {'name': 'Men\'s Soccer'},
+//   'soccer': {'name': 'Soccer'},
+//   'basketball_women': {'name': 'Women\'s Basketball'},
+//   'basketball_men': {'name': 'Men\'s Basketball'},
+//   'ice_hockey_women': {'name': 'Women\'s Ice Hockey'},
+//   'ice_hockey_men': {'name': 'Men\'s Ice Hockey'},
+//   'swimming_women': {'name': 'Women\'s Swimming'},
+//   'swimming_men': {'name': 'Men\'s Swimming'},
+//   'volleyball_women': {'name': 'Women\'s Volleyball'},
+//   'volleyball_men': {'name': 'Men\'s Volleyball'},
+//   'gymnastics_women': {'name': 'Women\'s Gymnastics'},
+//   'gymnastics_men': {'name': 'Men\'s Gymnastics'},
+//   'tennis_women': {'name': 'Women\'s Tennis'},
+//   'tennis_men': {'name': 'Men\'s Tennis'},
+//   'lacrosse_men': {'name': 'Men\'s Lacrosse'},
+//   'lacrosse_women': {'name': 'Women\'s Lacrosse'},
+//   'golf_women': {'name': 'Women\'s Golf'},
+//   'golf_men': {'name': 'Men\'s Golf'},
+//   'wrestling_women': {'name': 'Women\'s Wrestling'},
+//   'wrestling_men': {'name': 'Men\'s Wrestling'},
+//   'ice_hockey': {'name': 'Ice Hockey'},
+//   'swimming': {'name': 'Swimming'},
+//   'volleyball': {'name': 'Volleyball'},
+//   'gymnastics': {'name': 'Gymnastics'},
+//   'tennis': {'name': 'Tennis'},
+//   'lacrosse': {'name': 'Lacrosse'},
+//   'golf': {'name': 'Golf'},
+//   'wrestling': {'name': 'Wrestling'},
+//   'fencing': {'name': 'Fencing'},
+//   'track_and_field': {'name': 'Track & Field'},
+//   'basketball': {'name': 'Basketball'},
+//   'football': {'name': 'Football'}
+// };
 
 const STOP_ID_TO_NAME = {
   'college_avenue_at_allen_street': {'name': 'E. College Ave at S. Allen Street', 'stopId': 1},

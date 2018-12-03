@@ -1,9 +1,19 @@
 const {
-  SKILL_NAME,
-  SPORT_TYPE,
-  SPORT_TYPE_FREE
+  SKILL_NAME
 } = require('../utilities/constants/constants');
 
+const SPORT_TYPE_FREE = [
+  'cross_country',
+  'field_hockey',
+  'soccer_men',
+  'soccer_women',
+  'soccer',
+  'fencing',
+  'swimming_women',
+  'swimming_men',
+  'swimming',
+  'volleyball_men'
+];
 
 const TicketPriceIntentHandler = {
   canHandle(handlerInput) {
@@ -14,17 +24,16 @@ const TicketPriceIntentHandler = {
     let speechText;
 
     // let sport = handlerInput.requestEnvelope.request.intent.slots.SPORT_EVENT.resolutions.resolutionsPerAuthority[0].values[0].value.id;
-    let eventType = handlerInput.requestEnvelope.request.intent.slots.SPORT_EVENT.value;
-    console.log(eventType);
-    // let sportText = SPORT_TYPE[sport];
+    let eventType = handlerInput.requestEnvelope.request.intent.slots.SPORT_EVENT.resolutions.resolutionsPerAuthority[0].values[0].value.id;
+    let eventName = handlerInput.requestEnvelope.request.intent.slots.SPORT_EVENT.resolutions.resolutionsPerAuthority[0].values[0].value.name;
 
-    speechText = `${eventType} games are free!`;
+    let freeArray = SPORT_TYPE_FREE.includes(eventType);
 
-    // if (SPORT_TYPE_FREE.includes(eventType)) {
-    //   speechText = `All games for ${eventType} are free to the public`;
-    // } else {
-    //   `Ticket information for ${eventType} can be found online through TicketMaster`;
-    // }
+    if (freeArray) {
+      speechText = `All games for ${eventName} are free to the public`;
+    } else {
+      speechText = `Ticket information for ${eventName} can be found online through TicketMaster`;
+    }
 
     return handlerInput.responseBuilder
       .speak(speechText)

@@ -25,7 +25,7 @@ const SemesterIntentHandler = {
     } else if (semesterId === `summer2_${springYear}`) {
       map = SUMMER_SCHEDULE_SECONDSECTION;
     }
-    
+
     let speechText;
     speechText = map[academicDescriptions];
 
