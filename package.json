@@ -21,7 +21,8 @@
     "upcoming_sport": "lambda-local -l main.js -h handler -e ./utilities/events/upcomingGame.json",
     "home_game": "lambda-local -l main.js -h handler -e ./utilities/events/homeGame.json",
     "games_left": "lambda-local -l main.js -h handler -e ./utilities/events/games-left.json",
-    "home_games_left": "lambda-local -l main.js -h handler -e ./utilities/events/home-sport-remaining.json"
+    "home_games_left": "lambda-local -l main.js -h handler -e ./utilities/events/home-sport-remaining.json",
+    "ticket_test": "lambda-local -l main.js -h handler -e ./utilities/events/ticket-test.json"
   },
   "repository": {
     "type": "git",

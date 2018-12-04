@@ -13,7 +13,7 @@ const { UpcomingGameIntentHandler } = require('./handlers/sportsinfo');
 const { NextHomeGameIntentHandler } = require('./handlers/NextHomeGameIntentHandler');
 const { GamesLeftIntentHandler } = require('./handlers/GamesLeftIntentHandler');
 const { HomeGamesLeftIntentHandler } = require('./handlers/HomeGamesLeftIntentHandler');
-
+const { TicketPriceIntentHandler } = require('./handlers/TicketPriceIntentHandler');
 
 const {
   LaunchRequestHandler,
@@ -38,6 +38,7 @@ exports.handler = Alexa.SkillBuilders.custom()
     NextHomeGameIntentHandler,
     GamesLeftIntentHandler,
     HomeGamesLeftIntentHandler,
+    TicketPriceIntentHandler,
     HelpIntentHandler,
     CancelAndStopIntentHandler,
     SessionEndedRequestHandler)
