@@ -115,6 +115,23 @@ async function getRemainingSport(sport) {
   return getRemainingAnswer(foundItems, sport);
 }
 
+async function getRemainingHomeSport(sport) {
+  let fullList = await getFullList();
+  // eslint-disable-next-line consistent-return
+  let foundItems = fullList.filter(item => {
+    if (item.event) {
+      let title = item.event.title.replace(/\W/g, '');
+      let fixedSport = sport.replace(/\W/g, '');
+      if (title.includes(fixedSport) && item.event.startdate > moment().format()
+      && parseInt(item.event.startdate.substring(0, 4), 10) === moment().year()
+      && (item.event.location.includes('University Park') || item.event.location.includes('Rec Hall'))) {
+        return item;
+      }
+    }
+  });
+  return getRemainingHomeAnswer(foundItems, sport);
+}
+
 async function getRemainingAnswer(foundItems, sport) {
   let length = foundItems.length;
   let speechText;
@@ -126,10 +143,22 @@ async function getRemainingAnswer(foundItems, sport) {
   return speechText;
 }
 
+async function getRemainingHomeAnswer(foundItems, sport) {
+  let length = foundItems.length;
+  let speechText;
+  if (length > 0) {
+    speechText = `There are ${length} scheduled home ${sport} events left in ${moment().year()}.`;
+  } else {
+    speechText = `There are no scheduled home ${sport} events left in ${moment().year()}.`;
+  }
+  return speechText;
+}
+
 module.exports = {
   parser,
   getFullList,
   getUpcomingSport,
   getUpcomingHomeSport,
-  getRemainingSport
+  getRemainingSport,
+  getRemainingHomeSport
 };

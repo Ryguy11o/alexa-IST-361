@@ -20,7 +20,8 @@
     "fare_with_slot_test": "lambda-local -l main.js -h handler -e ./utilities/events/bus-fare-with-slot.json",
     "upcoming_sport": "lambda-local -l main.js -h handler -e ./utilities/events/upcomingGame.json",
     "home_game": "lambda-local -l main.js -h handler -e ./utilities/events/homeGame.json",
-    "games_left": "lambda-local -l main.js -h handler -e ./utilities/events/games-left.json"
+    "games_left": "lambda-local -l main.js -h handler -e ./utilities/events/games-left.json",
+    "home_games_left": "lambda-local -l main.js -h handler -e ./utilities/events/home-sport-remaining.json"
   },
   "repository": {
     "type": "git",
