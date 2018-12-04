@@ -1,4 +1,4 @@
-const { DESCRIPTION_DATE, FALL_SCHEDULE, SPRING_SCHEDULE, MAYMESTER, SUMMER_SCHEDULE_FIRSTSECTION, SUMMER_SCHEDULE_SECONDSECTION, SKILL_NAME } = require('../utilities/constants/constants');
+const { FALL_SCHEDULE, SPRING_SCHEDULE, MAYMESTER, SUMMER_SCHEDULE_FIRSTSECTION, SUMMER_SCHEDULE_SECONDSECTION, SKILL_NAME } = require('../utilities/constants/constants');
 
 const SemesterIntentHandler = {
   canHandle(handlerInput) {
@@ -9,7 +9,7 @@ const SemesterIntentHandler = {
   async handle(handlerInput) {
     const semesterId = handlerInput.requestEnvelope.request.intent.slots.SEMESTER.resolutions.resolutionsPerAuthority[0].values[0].value.id;
     const academicDescriptions = handlerInput.requestEnvelope.request.intent.slots.ACADEMIC_DESCRIPTION.resolutions.resolutionsPerAuthority[0].values[0].value.id;
-    const wordsSaidToAlexa = handlerInput.requestEnvelope.request.intent.slots.ACADEMIC_DESCRIPTION.resolutions.resolutionsPerAuthority[0].values[0].value.name;
+    // const wordsSaidToAlexa = handlerInput.requestEnvelope.request.intent.slots.ACADEMIC_DESCRIPTION.resolutions.resolutionsPerAuthority[0].values[0].value.name;
     const fallYear = 2018;
     const springYear = 2019;
 
@@ -25,7 +25,6 @@ const SemesterIntentHandler = {
     } else if (semesterId === `summer2_${springYear}`) {
       map = SUMMER_SCHEDULE_SECONDSECTION;
     }
-
     let speechText;
     speechText = map[academicDescriptions];
 
